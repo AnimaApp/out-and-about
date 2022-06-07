@@ -1,5 +1,5 @@
 <template>
-  <div :class="[`festivals-card-1 border-0-4px-white-2`, className || ``]">
+  <div class="festivals-card">
     <div class="flex-col">
       <div class="date mulish-normal-white-9px">{{ date }}</div>
       <div class="event-name mulish-bold-white-14px">{{ eventName }}</div>
@@ -15,20 +15,21 @@
 <script>
 export default {
   name: "FestivalsCard",
-  props: ["date", "eventName", "location", "className"],
+  props: ["date", "eventName", "location"],
 };
 </script>
 
 <style>
-.festivals-card-1 {
+.festivals-card {
   align-items: flex-start;
   background-color: var(--masala);
   border-radius: 4px;
   display: flex;
   height: 64px;
   overflow: hidden;
-  padding: 9.6px 10px;
+  padding: 10px;
   width: 320px;
+  border: 0.4px solid var(--white-2);
 }
 
 .flex-col {
@@ -69,9 +70,5 @@ export default {
   margin-left: 73px;
   margin-top: 0.36px;
   width: 13px;
-}
-
-.festivals-card-1.festivals-card {
-  margin-top: 8px;
 }
 </style>

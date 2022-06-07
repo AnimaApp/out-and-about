@@ -57,19 +57,16 @@
             :date="festivalsCard2Props.date"
             :eventName="festivalsCard2Props.eventName"
             :location="festivalsCard2Props.location"
-            :className="festivalsCard2Props.className"
           />
           <festivals-card
             :date="festivalsCard3Props.date"
             :eventName="festivalsCard3Props.eventName"
             :location="festivalsCard3Props.location"
-            :className="festivalsCard3Props.className"
           />
           <festivals-card
             :date="festivalsCard4Props.date"
             :eventName="festivalsCard4Props.eventName"
             :location="festivalsCard4Props.location"
-            :className="festivalsCard4Props.className"
           />
         </div>
         <img class="footer" :src="footer" />
@@ -330,6 +327,10 @@ export default {
   min-height: 280px;
   position: relative;
   width: 320px;
+}
+
+.events-list > * {
+  margin-bottom: 10px;
 }
 
 .footer {

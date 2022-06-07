@@ -42,7 +42,3 @@
   font-style: normal;
   font-weight: 400;
 }
-
-.border-0-4px-white-2 {
-  border: 0.4px solid var(--white-2);
-}

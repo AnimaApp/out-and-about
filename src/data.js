@@ -9,28 +9,25 @@ export const eventsHeaderData = {
 export const festivalsCard1Data = {
     date: "June 12, 2022",
     eventName: "Long Island Pride",
-    location: "East Meadow, NY United States",
+    location: "East Meadow, NY United States"
 };
 
 export const festivalsCard2Data = {
     date: "April 1-10, 2022",
     eventName: "Jasper Pride Festival",
-    location: "Jasper, Canada",
-    className: "festivals-card",
+    location: "Jasper, Canada"
 };
 
 export const festivalsCard3Data = {
     date: "July 23, 2022",
     eventName: "Berlin Christopher Street Day",
-    location: "Berlin, Germany",
-    className: "festivals-card",
+    location: "Berlin, Germany"
 };
 
 export const festivalsCard4Data = {
     date: "June 10, 2022",
     eventName: "Tel Aviv Pride",
-    location: "Tel Aviv, Israel",
-    className: "festivals-card",
+    location: "Tel Aviv, Israel"
 };
 
 export const outAndAboutData = {
@@ -43,7 +40,7 @@ export const outAndAboutData = {
     animaLogo: require("@/assets/anima-logo-3@2x.png"),
     rainbowShape: require("@/assets/rainbow-shape-1@2x.png"),
     inputType: "text",
-    inputPlaceholder: "Search Berlin pride, June events.. ",
+    inputPlaceholder: "Search Berlin pride, June events..",
     footer: require("@/assets/footer-5@2x.png"),
     eventsHeaderProps: eventsHeaderData,
     festivalsCard1Props: festivalsCard1Data,
