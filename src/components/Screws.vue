@@ -4,15 +4,15 @@
       <div class="overlap-group">
         <div class="ellipse-37"></div>
         <img
-          class="group-15706"
-          src="@/assets/group-15706-10@2x.svg"
+          class="plus"
+          src="@/assets/plus@2x.svg"
         />
       </div>
       <div class="overlap-group-1">
         <div class="ellipse-37"></div>
         <img
-          class="group-15706"
-          src="@/assets/group-15706-15@2x.svg"
+          class="plus"
+          src="@/assets/plus@2x.svg"
         />
       </div>
     </div>
@@ -20,15 +20,15 @@
       <div class="overlap-group">
         <div class="ellipse-37-1"></div>
         <img
-          class="group-15706"
-          src="@/assets/group-15706-8@2x.svg"
+          class="plus"
+          src="@/assets/plus@2x.svg"
         />
       </div>
       <div class="overlap-group-1">
         <div class="ellipse-37"></div>
         <img
-          class="group-15706"
-          src="@/assets/group-15706-13@2x.svg"
+          class="plus"
+          src="@/assets/plus@2x.svg"
         />
       </div>
     </div>
@@ -77,7 +77,7 @@ export default {
   width: 9px;
 }
 
-.group-15706 {
+.plus {
   height: 5px;
   left: 2px;
   position: absolute;
