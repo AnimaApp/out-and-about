@@ -10,11 +10,12 @@
             <h1 class="title valign-text-middle">{{ title }}</h1>
             <screws />
             <div class="overlap-group4">
-              <p class="made-with-by-anima">{{ madeWithByAnima }}</p>
+              <span class="made-with-by-anima">Made with</span>
               <img
                 class="heart-rainbowtrue"
                 src="@/assets/heart-rainbow-true-9@2x.svg"
               />
+              <span class="made-with-by-anima">by Anima</span>
             </div>
             <img class="flipper" :src="flipper" />
             <div class="shapes-illustration">
@@ -116,11 +117,7 @@ export default {
 <style>
 .out-and-about {
   align-items: flex-start;
-  background: linear-gradient(180deg, rgb(242, 191, 175) 0%, rgba(51, 102, 255, 0.3) 98.7%);
-  background-color: rgba(255, 255, 255, 1);
   display: flex;
-  height: 700px;
-  width: 370px;
 }
 
 .jukebox-background {
@@ -212,6 +209,9 @@ export default {
   position: absolute;
   top: 113px;
   width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .made-with-by-anima {
@@ -219,21 +219,16 @@ export default {
   font-family: var(--font-family-mulish);
   font-size: var(--font-size-s);
   font-weight: 400;
-  left: 0;
   letter-spacing: 0;
-  line-height: 11.1px;
-  position: absolute;
+  line-height: 12px;
   text-align: center;
-  top: 0;
   white-space: nowrap;
 }
 
 .heart-rainbowtrue {
   height: 10px;
-  left: 41px;
-  position: absolute;
-  top: 1px;
   width: 11px;
+  animation: beat 3s infinite;
 }
 
 .flipper {
@@ -268,15 +263,12 @@ export default {
   height: 106px;
   left: 67px;
   position: absolute;
-  top: 0;
-  transform: rotate(5000deg);
   width: 106px;
 }
 
 .ellipse-shape.animate-enter {
-  animation: animate-enter-frames 10s ease-in-out 0s 1 normal forwards;
+  animation: animate-enter-frames 1s linear 0s infinite normal forwards;
   display: block;
-  transform: rotate(5000deg);
 }
 
 .anima-logo {
@@ -348,10 +340,19 @@ export default {
 
 @keyframes animate-enter-frames {
   from {
-    transform: rotate(5000deg);
+    transform: rotate(360deg);
   }
   to {
     transform: rotate(0);
+  }
+}
+
+@keyframes beat {
+  0%, 50%, 100% {
+    transform: scale(1, 1);
+  }
+  30%, 80% {
+    transform: scale(0.92, 0.95);
   }
 }
 </style>

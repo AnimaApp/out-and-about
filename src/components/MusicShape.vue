@@ -57,13 +57,11 @@ export default {
   left: 0;
   position: absolute;
   top: 20px;
-  transform: translate(0, -80px);
   width: 7px;
 }
 
 .rectangle-1.animate-enter3 {
-  animation: animate-enter3-frames 0.2s ease-in-out 0s 1 normal forwards;
-  transform: translate(0, -80px);
+  animation: animate-enter3-frames 1s ease-in-out 0s infinite alternate;
 }
 
 .overlap-group-2 {
@@ -80,13 +78,11 @@ export default {
   left: 0;
   position: absolute;
   top: 12px;
-  transform: translate(0, 45px);
   width: 7px;
 }
 
 .rectangle-2.animate-enter2 {
-  animation: animate-enter2-frames 0.5s ease-in-out 0s 1 normal forwards;
-  transform: translate(0, 45px);
+  animation: animate-enter2-frames 2s ease-in-out 0s infinite alternate;
 }
 
 .rectangle-3 {
@@ -96,18 +92,16 @@ export default {
   left: 0;
   position: absolute;
   top: 32px;
-  transform: translate(0, -25px);
   width: 7px;
 }
 
 .rectangle-3.animate-enter1 {
-  animation: animate-enter1-frames 0.2s ease-in-out 0s 1 normal forwards;
-  transform: translate(0, -25px);
+  animation: animate-enter1-frames 0.7s ease-in-out 0s infinite alternate;
 }
 
 @keyframes animate-enter2-frames {
   from {
-    transform: translate(0, 45px);
+    transform: translate(0, 12px);
   }
   to {
     transform: translate(0, 0);
@@ -116,7 +110,7 @@ export default {
 
 @keyframes animate-enter3-frames {
   from {
-    transform: translate(0, -80px);
+    transform: translate(0, -15px);
   }
   to {
     transform: translate(0, 0);
