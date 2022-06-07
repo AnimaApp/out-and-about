@@ -34,7 +34,7 @@
         <div class="search-bar">
           <small-icons-search />
           <input
-            class="search-berlin-pride-june-events"
+            class="search-input"
             name="searchberlinpridejuneevents"
             :placeholder="inputPlaceholder"
             :type="inputType"
@@ -48,25 +48,12 @@
           :spanText4="eventsHeaderProps.spanText4"
         />
         <div class="events-list">
-          <festivals-card
-            :date="festivalsCard1Props.date"
-            :eventName="festivalsCard1Props.eventName"
-            :location="festivalsCard1Props.location"
-          />
-          <festivals-card
-            :date="festivalsCard2Props.date"
-            :eventName="festivalsCard2Props.eventName"
-            :location="festivalsCard2Props.location"
-          />
-          <festivals-card
-            :date="festivalsCard3Props.date"
-            :eventName="festivalsCard3Props.eventName"
-            :location="festivalsCard3Props.location"
-          />
-          <festivals-card
-            :date="festivalsCard4Props.date"
-            :eventName="festivalsCard4Props.eventName"
-            :location="festivalsCard4Props.location"
+          <event-card
+            v-for="event in events"
+            :key="event.id"
+            :date="event.dateFrame"
+            :eventName="event.title"
+            :location="event.location"
           />
         </div>
         <img class="footer" :src="footer" />
@@ -80,15 +67,20 @@ import Screws from "./Screws";
 import MusicShape from "./MusicShape";
 import SmallIconsSearch from "./SmallIconsSearch";
 import EventsHeader from "./EventsHeader";
-import FestivalsCard from "./FestivalsCard";
+import EventCard from "./EventCard";
 export default {
   name: "OutAndAbout",
+  data() {
+    return {
+      eventsList: []
+    };
+  },
   components: {
     Screws,
     MusicShape,
     SmallIconsSearch,
     EventsHeader,
-    FestivalsCard,
+    EventCard,
   },
   props: [
     "maskGroup1",
@@ -108,6 +100,24 @@ export default {
     "festivalsCard3Props",
     "festivalsCard4Props",
   ],
+  mounted() {
+    this.fetchEvents();
+  },
+  computed: {
+    events() {
+      let data = [...this.eventsList];
+      data = data.sort((a, b) => {
+        return new Date(a.startDate) - new Date(b.startDate);
+      });
+      return data;
+    }
+  },
+  methods: {
+    async fetchEvents() {
+      const res = await fetch('/data/events.json');
+      this.eventsList = await res.json();
+    }
+  }
 };
 </script>
 
@@ -298,7 +308,7 @@ export default {
   width: 319px;
 }
 
-.search-berlin-pride-june-events {
+.search-input {
   background-color: transparent;
   border: 0;
   color: var(--white);
@@ -315,7 +325,7 @@ export default {
   width: 150px;
 }
 
-.search-berlin-pride-june-events::placeholder {
+.search-input::placeholder {
   color: #ffffff99;
 }
 

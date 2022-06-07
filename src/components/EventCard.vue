@@ -14,7 +14,7 @@
 
 <script>
 export default {
-  name: "FestivalsCard",
+  name: "EventCard",
   props: ["date", "eventName", "location"],
 };
 </script>
