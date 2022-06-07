@@ -6,6 +6,7 @@ body {
   background: linear-gradient(180deg, rgb(242, 191, 175) 0%, rgba(51, 102, 255, 0.3) 98.7%);
   background-color: rgba(255, 255, 255, 1);
   background-repeat: no-repeat;
+  background-attachment: fixed;
   width: 100vw;
   height: 100vh;
 }
