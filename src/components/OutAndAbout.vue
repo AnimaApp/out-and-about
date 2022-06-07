@@ -13,7 +13,7 @@
               <span class="made-with-by-anima">Made with</span>
               <img
                 class="heart-rainbowtrue"
-                src="@/assets/heart-rainbow-true-9@2x.svg"
+                src="@/assets/heart-rainbow-true@2x.svg"
               />
               <span class="made-with-by-anima">by Anima</span>
             </div>
@@ -41,11 +41,9 @@
           />
         </div>
         <events-header
-          :title="eventsHeaderProps.title"
-          :spanText1="eventsHeaderProps.spanText1"
-          :spanText2="eventsHeaderProps.spanText2"
-          :spanText3="eventsHeaderProps.spanText3"
-          :spanText4="eventsHeaderProps.spanText4"
+          title="Events"
+          :filter="filter"
+          @click:filter="onChangeFilter"
         />
         <div class="events-list">
           <event-card
@@ -54,6 +52,8 @@
             :date="event.dateFrame"
             :eventName="event.title"
             :location="event.location"
+            :favorite="event.favorite"
+            @click:toggle-favorite="onClickToggleFavorite(event)"
           />
         </div>
         <img class="footer" :src="footer" />
@@ -68,11 +68,16 @@ import MusicShape from "./MusicShape";
 import SmallIconsSearch from "./SmallIconsSearch";
 import EventsHeader from "./EventsHeader";
 import EventCard from "./EventCard";
+
+const FAVORITE_IDS_KEY = "favoriteIds";
+
 export default {
   name: "OutAndAbout",
   data() {
     return {
-      eventsList: []
+      filter: 'All',
+      eventsList: [],
+      favoriteIds: []
     };
   },
   components: {
@@ -95,20 +100,27 @@ export default {
     "inputPlaceholder",
     "footer",
     "eventsHeaderProps",
-    "festivalsCard1Props",
-    "festivalsCard2Props",
-    "festivalsCard3Props",
-    "festivalsCard4Props",
   ],
   mounted() {
     this.fetchEvents();
+    this.getFavorites();
   },
   computed: {
     events() {
       let data = [...this.eventsList];
       data = data.sort((a, b) => {
         return new Date(a.startDate) - new Date(b.startDate);
+      }).map(event => {
+        return {
+          ...event,
+          favorite: this.favoriteIds.includes(event.id)
+        };
       });
+
+      if (this.filter === 'Favorites') {
+        data = data.filter(event => event.favorite);
+      }
+
       return data;
     }
   },
@@ -116,6 +128,25 @@ export default {
     async fetchEvents() {
       const res = await fetch('/data/events.json');
       this.eventsList = await res.json();
+    },
+    getFavorites() {
+      const favoriteIdsString = localStorage.getItem(FAVORITE_IDS_KEY);
+      if (favoriteIdsString) {
+        this.favoriteIds = JSON.parse(favoriteIdsString);
+      }
+    },
+    onChangeFilter(type) {
+      this.filter = type;
+    },
+    onClickToggleFavorite({ id, favorite }) {
+      const newList = [...this.favoriteIds];
+      if (favorite) {
+        newList.splice(this.favoriteIds.indexOf(id), 1);
+      } else {
+        newList.push(id);
+      }
+      localStorage.setItem(FAVORITE_IDS_KEY, JSON.stringify(newList));
+      this.favoriteIds = newList;
     }
   }
 };

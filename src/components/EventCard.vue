@@ -5,17 +5,46 @@
       <div class="event-name mulish-bold-white-14px">{{ eventName }}</div>
       <p class="location mulish-normal-white-9px">{{ location }}</p>
     </div>
-    <img
-      class="heart-rainbow"
-      src="@/assets/heart-rainbow-true-7@2x.svg"
-    />
+    <div class="favorite" @click="onClickHeart">
+      <img :src="heartSrc" />
+    </div>
   </div>
 </template>
 
 <script>
+const RAINBOW_HEART = require("@/assets/heart-rainbow-true@2x.svg");
+const EMPTY_HEART = require("@/assets/empty-heart.png");
+
 export default {
   name: "EventCard",
-  props: ["date", "eventName", "location"],
+  props: {
+    date: {
+      type: String,
+      required: true
+    },
+    eventName: {
+      type: String,
+      required: true
+    },
+    location: {
+      type: String,
+      required: true
+    },
+    favorite: {
+      type: Boolean,
+      default: false
+    }
+  },
+  computed: {
+    heartSrc() {
+      return this.favorite ? RAINBOW_HEART : EMPTY_HEART;
+    }
+  },
+  methods: {
+    onClickHeart() {
+      this.$emit("click:toggle-favorite");
+    }
+  }
 };
 </script>
 
@@ -65,10 +94,12 @@ export default {
   white-space: nowrap;
 }
 
-.heart-rainbow {
-  height: 12px;
+.favorite {
   margin-left: 73px;
-  margin-top: 0.36px;
+  cursor: pointer;
+}
+.favorite img {
   width: 13px;
+  height: 12px;
 }
 </style>

@@ -1,11 +1,20 @@
 <template>
   <div class="events-header">
-    <div class="title-1">{{ title }}</div>
+    <div class="title-1">Events</div>
     <div class="filters">
-      <span class="mulish-normal-white-9px">{{ spanText1 }}</span
-      ><span class="mulish-normal-white-9px-2">{{ spanText2 }}</span
-      ><span class="mulish-normal-white-9px">{{ spanText3 }}</span
-      ><span class="mulish-normal-white-9px-2">{{ spanText4 }}</span>
+      <span
+        :class="['mulish-normal-white-9px-transparent', { selected: filter === 'All' }]"
+        @click="onClickFilter('All')"
+      >
+        All
+      </span>
+      <span class="mulish-normal-white-9px-transparent"> | </span>
+      <span
+        :class="['mulish-normal-white-9px-transparent', { selected: filter === 'Favorites' }]"
+        @click="onClickFilter('Favorites')"
+      >
+        Favorites
+      </span>
     </div>
   </div>
 </template>
@@ -13,7 +22,22 @@
 <script>
 export default {
   name: "EventsHeader",
-  props: ["title", "spanText1", "spanText2", "spanText3", "spanText4"],
+  props: {
+    title: {
+      type: String,
+      default: "Events"
+    },
+    filter: {
+      type: String,
+      default: "All",
+      validator: value => ['All', 'Favorites'].includes(value)
+    }
+  },
+  methods: {
+    onClickFilter(type) {
+      this.$emit('click:filter', type);
+    }
+  }
 };
 </script>
 
@@ -21,33 +45,37 @@ export default {
 .events-header {
   align-items: flex-start;
   display: flex;
-  height: 12px;
+  justify-content: space-between;
+  width: 320px;
   margin-top: 7px;
-  min-width: 320px;
 }
 
 .title-1 {
   color: var(--white);
   font-family: var(--font-family-mulish);
-  font-size: var(--font-size-m);
+  font-size: var(--font-size-l);
   font-weight: 700;
   letter-spacing: 0;
   line-height: 12px;
-  margin-top: -1px;
   min-height: 12px;
   min-width: 29px;
   white-space: nowrap;
 }
 
+.mulish-normal-white-9px-transparent {
+  cursor: pointer;
+}
+.mulish-normal-white-9px-transparent.selected {
+  opacity: 1;
+}
+
 .filters {
   color: transparent;
   font-family: var(--font-family-mulish);
-  font-size: var(--font-size-m);
+  font-size: var(--font-size-l);
   font-weight: 400;
   letter-spacing: 0;
   line-height: 12px;
-  margin-left: 234px;
-  margin-top: -1px;
   min-height: 12px;
   white-space: nowrap;
 }

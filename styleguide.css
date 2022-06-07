@@ -19,6 +19,7 @@
   --font-family-mulish: "Mulish", Helvetica;
   --font-family-roslindale-displayultra: "Roslindale-DisplayUltra", Helvetica;
 }
+
 .mulish-normal-white-9px {
   color: var(--white);
   font-family: var(--font-family-mulish);
@@ -35,10 +36,11 @@
   font-weight: 700;
 }
 
-.mulish-normal-white-9px-2 {
-  color: var(--white-3);
+.mulish-normal-white-9px-transparent {
+  color: var(--white);
   font-family: var(--font-family-mulish);
   font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 400;
+  opacity: 0.4;
 }
