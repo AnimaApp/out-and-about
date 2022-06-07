@@ -7,7 +7,6 @@ export const outAndAboutData = {
     flipper: require("@/assets/flipper-2@2x.png"),
     animaLogo: require("@/assets/anima-logo-3@2x.png"),
     rainbowShape: require("@/assets/rainbow-shape-1@2x.png"),
-    inputType: "text",
     inputPlaceholder: "Search Berlin pride, June events..",
     footer: require("@/assets/footer-5@2x.png")
 };

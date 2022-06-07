@@ -36,8 +36,9 @@
           <input
             class="search-input"
             name="searchberlinpridejuneevents"
+            type="text"
+            v-model="query"
             :placeholder="inputPlaceholder"
-            :type="inputType"
           />
         </div>
         <events-header
@@ -68,6 +69,7 @@ import MusicShape from "./MusicShape";
 import SmallIconsSearch from "./SmallIconsSearch";
 import EventsHeader from "./EventsHeader";
 import EventCard from "./EventCard";
+import Fuse from 'fuse.js';
 
 const FAVORITE_IDS_KEY = "favoriteIds";
 
@@ -77,7 +79,9 @@ export default {
     return {
       filter: 'All',
       eventsList: [],
-      favoriteIds: []
+      favoriteIds: [],
+      fuse: null,
+      query: ''
     };
   },
   components: {
@@ -102,20 +106,29 @@ export default {
     "eventsHeaderProps",
   ],
   mounted() {
-    this.fetchEvents();
+    this.fetchEvents().then(this.initFuzzySearch);
     this.getFavorites();
   },
   computed: {
     events() {
+      const query = this.query.trim();
       let data = [...this.eventsList];
-      data = data.sort((a, b) => {
-        return new Date(a.startDate) - new Date(b.startDate);
-      }).map(event => {
-        return {
+
+      // filter by query
+      if (query) {
+        // results are sorted by relevance to query
+        data = this.fuse.search(query).map(res => res.item);
+      } else {
+        // sort by date
+        data = data.sort((a, b) => (new Date(a.startDate) - new Date(b.startDate)))
+      }
+
+      // add favorites values to events
+      data = data.map(event => ({
           ...event,
           favorite: this.favoriteIds.includes(event.id)
-        };
-      });
+        })
+      );
 
       if (this.filter === 'Favorites') {
         data = data.filter(event => event.favorite);
@@ -128,6 +141,13 @@ export default {
     async fetchEvents() {
       const res = await fetch('/data/events.json');
       this.eventsList = await res.json();
+    },
+    initFuzzySearch() {
+      this.fuse = new Fuse(this.eventsList, {
+        keys: ['title', 'location', 'dateFrame'],
+        findAllMatches: true,
+        threshold: 0.3
+      });
     },
     getFavorites() {
       const favoriteIdsString = localStorage.getItem(FAVORITE_IDS_KEY);
@@ -330,7 +350,7 @@ export default {
   border: 0.5px solid var(--white);
   border-radius: 2px;
   display: flex;
-  height: 20px;
+  height: 30px;
   margin-right: 1px;
   margin-top: 7px;
   overflow: hidden;
@@ -344,16 +364,15 @@ export default {
   border: 0;
   color: var(--white);
   font-family: var(--font-family-mulish);
-  font-size: var(--font-size-l);
+  font-size: var(--font-size-xl);
   font-weight: 400;
-  height: 12px;
+  height: 30px;
   letter-spacing: 0;
   line-height: 12px;
   margin-left: 4px;
-  opacity: 0.8;
   padding: 0;
   white-space: nowrap;
-  width: 150px;
+  width: 100%;
 }
 
 .search-input::placeholder {
