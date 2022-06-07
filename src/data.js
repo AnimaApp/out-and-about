@@ -34,17 +34,17 @@ export const festivalsCard4Data = {
 };
 
 export const outAndAboutData = {
-    maskGroup1: "https://anima-uploads.s3.amazonaws.com/projects/629dded1e3ebcb0f782c0f59/releases/629df9aaa22ebe01b54e50eb/img/mask-group-4@2x.png",
-    maskGroup2: "https://anima-uploads.s3.amazonaws.com/projects/629dded1e3ebcb0f782c0f59/releases/629e0c47d07e05affe62ea17/img/mask-group-9@2x.png",
+    maskGroup1: require("@/assets/mask-group-4@2x.png"),
+    maskGroup2: require("@/assets/mask-group-9@2x.png"),
     proudAllYearRound: "Proud all year 'round",
     title: "Out & About",
     madeWithByAnima: "Made with       by Anima",
-    flipper: "https://anima-uploads.s3.amazonaws.com/projects/629dded1e3ebcb0f782c0f59/releases/629e0be802e6f35a0a8ec1a8/img/flipper-2@2x.png",
-    animaLogo: "https://anima-uploads.s3.amazonaws.com/projects/629dded1e3ebcb0f782c0f59/releases/629e0be802e6f35a0a8ec1a8/img/anima-logo-3@2x.png",
-    rainbowShape: "https://anima-uploads.s3.amazonaws.com/projects/629dded1e3ebcb0f782c0f59/releases/629de2baedc2c70ee79e9dd7/img/rainbow-shape-1@2x.png",
+    flipper: require("@/assets/flipper-2@2x.png"),
+    animaLogo: require("@/assets/anima-logo-3@2x.png"),
+    rainbowShape: require("@/assets/rainbow-shape-1@2x.png"),
     inputType: "text",
     inputPlaceholder: "Search Berlin pride, June events.. ",
-    footer: "https://anima-uploads.s3.amazonaws.com/projects/629dded1e3ebcb0f782c0f59/releases/629ef7c6642ada334b7f73c5/img/footer-5@2x.png",
+    footer: require("@/assets/footer-5@2x.png"),
     eventsHeaderProps: eventsHeaderData,
     festivalsCard1Props: festivalsCard1Data,
     festivalsCard2Props: festivalsCard2Data,

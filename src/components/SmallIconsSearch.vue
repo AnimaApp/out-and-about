@@ -3,11 +3,11 @@
     <div class="overlap-group-4">
       <img
         class="shape"
-        src="https://anima-uploads.s3.amazonaws.com/projects/629dded1e3ebcb0f782c0f59/releases/629de2baedc2c70ee79e9dd7/img/shape-1@2x.svg"
+        src="@/assets/shape-1@2x.svg"
       />
       <img
         class="path"
-        src="https://anima-uploads.s3.amazonaws.com/projects/629dded1e3ebcb0f782c0f59/releases/629de2baedc2c70ee79e9dd7/img/path-1@2x.svg"
+        src="@/assets/path-1@2x.svg"
       />
     </div>
   </div>

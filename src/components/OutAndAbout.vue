@@ -13,7 +13,7 @@
               <p class="made-with-by-anima">{{ madeWithByAnima }}</p>
               <img
                 class="heart-rainbowtrue"
-                src="https://anima-uploads.s3.amazonaws.com/projects/629dded1e3ebcb0f782c0f59/releases/629ef7c6642ada334b7f73c5/img/heart-rainbow-true-9@2x.svg"
+                src="@/assets/heart-rainbow-true-9@2x.svg"
               />
             </div>
             <img class="flipper" :src="flipper" />
@@ -21,7 +21,7 @@
               <div class="overlap-group5">
                 <img
                   class="ellipse-shape animate-enter"
-                  src="https://anima-uploads.s3.amazonaws.com/projects/629dded1e3ebcb0f782c0f59/releases/629df9aaa22ebe01b54e50eb/img/ellipse-shape-1@2x.svg"
+                  src="@/assets/ellipse-shape-1@2x.svg"
                 />
                 <music-shape />
                 <img class="anima-logo" :src="animaLogo" />

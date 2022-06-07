@@ -7,7 +7,7 @@
     </div>
     <img
       class="heart-rainbow"
-      src="https://anima-uploads.s3.amazonaws.com/projects/629dded1e3ebcb0f782c0f59/releases/629ef585f4af1b512207868c/img/heart-rainbow-true-7@2x.svg"
+      src="@/assets/heart-rainbow-true-7@2x.svg"
     />
   </div>
 </template>

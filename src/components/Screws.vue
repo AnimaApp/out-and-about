@@ -5,14 +5,14 @@
         <div class="ellipse-37"></div>
         <img
           class="group-15706"
-          src="https://anima-uploads.s3.amazonaws.com/projects/629dded1e3ebcb0f782c0f59/releases/629df9aaa22ebe01b54e50eb/img/group-15706-10@2x.svg"
+          src="@/assets/group-15706-10@2x.svg"
         />
       </div>
       <div class="overlap-group-1">
         <div class="ellipse-37"></div>
         <img
           class="group-15706"
-          src="https://anima-uploads.s3.amazonaws.com/projects/629dded1e3ebcb0f782c0f59/releases/629e0be802e6f35a0a8ec1a8/img/group-15706-15@2x.svg"
+          src="@/assets/group-15706-15@2x.svg"
         />
       </div>
     </div>
@@ -21,14 +21,14 @@
         <div class="ellipse-37-1"></div>
         <img
           class="group-15706"
-          src="https://anima-uploads.s3.amazonaws.com/projects/629dded1e3ebcb0f782c0f59/releases/629df9aaa22ebe01b54e50eb/img/group-15706-8@2x.svg"
+          src="@/assets/group-15706-8@2x.svg"
         />
       </div>
       <div class="overlap-group-1">
         <div class="ellipse-37"></div>
         <img
           class="group-15706"
-          src="https://anima-uploads.s3.amazonaws.com/projects/629dded1e3ebcb0f782c0f59/releases/629e0be802e6f35a0a8ec1a8/img/group-15706-13@2x.svg"
+          src="@/assets/group-15706-13@2x.svg"
         />
       </div>
     </div>
