@@ -112,8 +112,8 @@ export default {
   0%, 100% {
     transform: scale(1, 1);
   }
-  50% {
-    transform: scale(1.3, 1.3);
+  10% {
+    transform: scale(1.2, 1.2);
   }
 }
 </style>

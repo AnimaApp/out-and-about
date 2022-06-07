@@ -5,9 +5,10 @@
         <div class="group-container">
           <img class="mask-group" :src="maskGroup1" /><img class="mask-group-1" :src="maskGroup2" />
           <div class="overlap-group6">
-            <div class="bg"></div>
-            <div class="proud-all-year-round valign-text-middle">{{ proudAllYearRound }}</div>
-            <h1 class="title valign-text-middle">{{ title }}</h1>
+            <div class="bg">
+              <h1 class="title valign-text-middle">{{ title }}</h1>
+              <div class="proud-all-year-round valign-text-middle">{{ proudAllYearRound }}</div>
+            </div>
             <screws />
             <div class="overlap-group4">
               <span class="made-with-by-anima">Made with</span>
@@ -236,28 +237,20 @@ export default {
   font-family: var(--font-family-caveat);
   font-size: var(--font-size-xxl);
   font-weight: 500;
-  height: 20px;
   left: 54px;
   letter-spacing: 0;
   line-height: 20px;
-  position: absolute;
   text-align: center;
-  top: 177px;
   white-space: nowrap;
 }
 
 .title {
   color: var(--bianca);
-  font-family: var(--font-family-roslindale-displayultra);
+  font-family: var(--font-family-roboto-slab);
   font-size: var(--font-size-xxxl);
-  font-weight: 400;
   height: 40px;
-  left: 25px;
-  letter-spacing: 0;
-  line-height: 40px;
-  position: absolute;
   text-align: center;
-  top: 143px;
+  margin-top: 10px;
   white-space: nowrap;
 }
 
