@@ -12,7 +12,7 @@
             <div class="overlap-group4">
               <span class="made-with-by-anima">Made with</span>
               <img
-                class="heart-rainbowtrue"
+                class="heart-rainbow"
                 src="@/assets/heart-rainbow-true@2x.svg"
               />
               <span class="made-with-by-anima">by Anima</span>
@@ -46,7 +46,7 @@
           :filter="filter"
           @click:filter="onChangeFilter"
         />
-        <div class="events-list">
+        <transition-group class="events-list" name="events-list">
           <event-card
             v-for="event in events"
             :key="event.id"
@@ -56,7 +56,7 @@
             :favorite="event.favorite"
             @click:toggle-favorite="onClickToggleFavorite(event)"
           />
-        </div>
+        </transition-group>
         <img class="footer" :src="footer" />
       </div>
     </div>
@@ -184,7 +184,7 @@ export default {
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  min-height: 700px;
+  min-height: 100vh;
   position: relative;
   width: 370px;
 }
@@ -283,10 +283,10 @@ export default {
   white-space: nowrap;
 }
 
-.heart-rainbowtrue {
+.heart-rainbow {
   height: 10px;
   width: 11px;
-  animation: beat 3s infinite;
+  animation: beat 1s linear 0s 2 normal forwards;
 }
 
 .flipper {
@@ -355,7 +355,7 @@ export default {
   margin-top: 7px;
   overflow: hidden;
   padding: 0 2px;
-  position: relative;
+  position: sticky;
   width: 319px;
 }
 
@@ -384,7 +384,6 @@ export default {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
-  min-height: 280px;
   position: relative;
   width: 320px;
 }
@@ -395,8 +394,20 @@ export default {
 
 .footer {
   height: 104px;
-  margin-right: 1px;
   width: 369px;
+  margin-top: auto;
+}
+
+.events-list-move,
+.events-list-enter-active,
+.events-list-leave-active {
+  transition: all 0.2s;
+}
+
+.events-list-enter-from,
+.events-list-leave-to {
+  opacity: 0;
+  transform: translateX(15px);
 }
 
 @keyframes animate-enter-frames {
@@ -413,7 +424,7 @@ export default {
     transform: scale(1, 1);
   }
   30%, 80% {
-    transform: scale(0.92, 0.95);
+    transform: scale(1.2, 1.2);
   }
 }
 </style>

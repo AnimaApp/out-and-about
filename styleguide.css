@@ -36,10 +36,10 @@
   font-weight: 700;
 }
 
-.mulish-normal-white-9px-transparent {
+.mulish-normal-white-xl-transparent {
   color: var(--white);
   font-family: var(--font-family-mulish);
-  font-size: var(--font-size-m);
+  font-size: var(--font-size-xl);
   font-style: normal;
   font-weight: 400;
   opacity: 0.4;

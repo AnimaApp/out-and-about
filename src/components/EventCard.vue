@@ -6,7 +6,7 @@
       <p class="location mulish-normal-white-9px">{{ location }}</p>
     </div>
     <div class="favorite" @click="onClickHeart">
-      <img :src="heartSrc" />
+      <img :src="heartSrc" :class="{ beat: favorite }" />
     </div>
   </div>
 </template>
@@ -97,9 +97,23 @@ export default {
 .favorite {
   margin-left: 73px;
   cursor: pointer;
+  user-select: none;
 }
 .favorite img {
   width: 13px;
   height: 12px;
+}
+
+.beat {
+  animation: beat-once 0.2s linear 0s 1 normal forwards;
+}
+
+@keyframes beat-once {
+  0%, 100% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.3, 1.3);
+  }
 }
 </style>

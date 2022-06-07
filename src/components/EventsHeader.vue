@@ -3,14 +3,14 @@
     <div class="title-1">Events</div>
     <div class="filters">
       <span
-        :class="['mulish-normal-white-9px-transparent', { selected: filter === 'All' }]"
+        :class="['mulish-normal-white-xl-transparent', { selected: filter === 'All' }]"
         @click="onClickFilter('All')"
       >
         All
       </span>
-      <span class="mulish-normal-white-9px-transparent"> | </span>
+      <span class="mulish-normal-white-xl-transparent"> | </span>
       <span
-        :class="['mulish-normal-white-9px-transparent', { selected: filter === 'Favorites' }]"
+        :class="['mulish-normal-white-xl-transparent', { selected: filter === 'Favorites' }]"
         @click="onClickFilter('Favorites')"
       >
         Favorites
@@ -47,13 +47,13 @@ export default {
   display: flex;
   justify-content: space-between;
   width: 320px;
-  margin-top: 7px;
+  margin-top: 15px;
 }
 
 .title-1 {
   color: var(--white);
   font-family: var(--font-family-mulish);
-  font-size: var(--font-size-l);
+  font-size: var(--font-size-xl);
   font-weight: 700;
   letter-spacing: 0;
   line-height: 12px;
@@ -62,17 +62,17 @@ export default {
   white-space: nowrap;
 }
 
-.mulish-normal-white-9px-transparent {
+.mulish-normal-white-xl-transparent {
   cursor: pointer;
 }
-.mulish-normal-white-9px-transparent.selected {
+.mulish-normal-white-xl-transparent.selected {
   opacity: 1;
 }
 
 .filters {
   color: transparent;
   font-family: var(--font-family-mulish);
-  font-size: var(--font-size-l);
+  font-size: var(--font-size-xl);
   font-weight: 400;
   letter-spacing: 0;
   line-height: 12px;
