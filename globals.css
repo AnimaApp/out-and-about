@@ -2,6 +2,14 @@
 @import url("https://fonts.googleapis.com/css?family=Mulish:400,700|Caveat:500");
 @import url("https://px.animaapp.com/5e8c5f11c36280dada2e7f77.6151703b87ff25f4a0ae9d4f.11mZJdX.vcp.png");
 
+body {
+  background: linear-gradient(180deg, rgb(242, 191, 175) 0%, rgba(51, 102, 255, 0.3) 98.7%);
+  background-color: rgba(255, 255, 255, 1);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
 .screen a {
   display: contents;
   text-decoration: none;
