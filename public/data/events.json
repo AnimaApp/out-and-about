@@ -2,1167 +2,799 @@
     {
         "title": "Pride Cape Coral",
         "startDate": "2022-03-02T00:00:00",
-        "endDate": "2022-03-05T00:00:00",
-        "url": "https://www.facebook.com/PRIDECapeCoral/",
         "dateFrame": "March 2-5, 2022",
-        "city": "Cape Coral",
-        "country": "United States",
-        "location": "Cape Coral, United States",
-        "id": "331a22f9"
+        "id": "82b34c4c",
+        "location": "Cape Coral, United States"
     },
     {
         "title": "Jasper Pride Festival",
         "startDate": "2022-04-01T00:00:00",
-        "endDate": "2022-04-10T00:00:00",
-        "url": "http://jasperpride.ca/",
         "dateFrame": "April 1-10, 2022",
-        "city": "Jasper",
-        "country": "Canada",
-        "location": "Jasper, Canada",
-        "id": "c16d0132"
+        "id": "e534701a",
+        "location": "Jasper, Canada"
     },
     {
         "title": "Miami Beach Gay Pride",
         "startDate": "2022-04-01T00:00:00",
-        "endDate": "2022-04-10T00:00:00",
-        "url": "http://www.miamibeachgaypride.com/",
         "dateFrame": "April 1-10, 2022",
-        "city": "Miami",
-        "country": "United States",
-        "location": "Miami, United States",
-        "id": "81a67a0b"
+        "id": "e68640e9",
+        "location": "Miami, United States"
     },
     {
         "title": "Atlanta Bear Pride",
         "startDate": "2022-04-22T00:00:00",
-        "endDate": "2022-04-24T00:00:00",
-        "url": "http://atlantabearpride.com/",
         "dateFrame": "April 22-24, 2022",
-        "city": "Atlanta",
-        "country": "United States",
-        "location": "Atlanta, United States",
-        "id": "497234a3"
+        "id": "6b708556",
+        "location": "Atlanta, United States"
     },
     {
         "title": "Tokyo Rainbow Pride",
         "startDate": "2022-04-22T00:00:00",
-        "endDate": "2022-06-30T00:00:00",
-        "url": "http://tokyorainbowpride.com/",
         "dateFrame": "April 22 to June 30, 2022",
-        "city": "Tokyo",
-        "country": "Japan",
-        "location": "Tokyo, Japan",
-        "id": "d5386f9e"
+        "id": "be818643",
+        "location": "Tokyo, Japan"
     },
     {
         "title": "Big Boy Pride",
         "startDate": "2022-04-28T00:00:00",
-        "endDate": "2022-05-02T00:00:00",
-        "url": "https://www.facebook.com/TheOfficialBigBoyPride",
         "dateFrame": "April 28 to May 2, 2022",
-        "city": "Orlando",
-        "country": "United States",
-        "location": "Orlando, United States",
-        "id": "1b60876b"
+        "id": "f3bc09a8",
+        "location": "Orlando, United States"
     },
     {
         "title": "Philadelphia Black Pride",
         "startDate": "2022-04-29T00:00:00",
-        "endDate": "2022-05-01T00:00:00",
-        "url": "http://www.phillyblackpride.org/",
         "dateFrame": "April 29 to May 1, 2022",
-        "city": "Philadelphia",
-        "country": "United States",
-        "location": "Philadelphia, United States",
-        "id": "39e0f995"
+        "id": "81b1f7c7",
+        "location": "Philadelphia, United States"
     },
     {
         "title": "Maspalomas Gay Pride",
         "startDate": "2022-05-05T00:00:00",
-        "endDate": "2022-05-15T00:00:00",
-        "url": "https://gaymaspalomas.com/gay-pride-gran-canaria-2020.html",
         "dateFrame": "May 5-15, 2022",
-        "city": "Gran Canaria",
-        "country": "Spain",
-        "location": "Gran Canaria, Spain",
-        "id": "1cf260be"
+        "id": "b6ab1a2c",
+        "location": "Gran Canaria, Spain"
     },
     {
         "title": "New Hope Celebrates PrideFest",
         "startDate": "2022-05-20T00:00:00",
-        "endDate": "2022-05-22T00:00:00",
-        "url": "https://www.newhopecelebrates.com/",
         "dateFrame": "May 20-22, 2022",
-        "city": "New Hope",
-        "country": "United States",
-        "location": "New Hope, United States",
-        "id": "e2b102c7"
+        "id": "7718dfbc",
+        "location": "New Hope, United States"
     },
     {
         "title": "Belgian Pride",
         "startDate": "2022-05-21T00:00:00",
-        "endDate": "2022-05-21T00:00:00",
-        "url": "https://www.pride.be/",
         "dateFrame": "May 21, 2022",
-        "city": "Brussels",
-        "country": "Belgium",
-        "location": "Brussels, Belgium",
-        "id": "92cf85a9"
+        "id": "a89ad459",
+        "location": "Brussels, Belgium"
     },
     {
         "title": "Springfield PrideFest",
         "startDate": "2022-05-21T00:00:00",
-        "endDate": "2022-05-21T00:00:00",
-        "url": "http://www.springfieldpride.org/",
         "dateFrame": "May 21, 2022",
-        "city": "Springfield",
-        "country": "United States",
-        "location": "Springfield, United States",
-        "id": "f299b6be"
+        "id": "bfb43004",
+        "location": "Springfield, United States"
     },
     {
         "title": "Vallarta Pride",
         "startDate": "2022-05-23T00:00:00",
-        "endDate": "2022-05-30T00:00:00",
-        "url": "http://vallartapride.com/home/",
         "dateFrame": "May 23-30, 2022",
-        "city": "Puerto Vallarta",
-        "country": "Mexico",
-        "location": "Puerto Vallarta, Mexico",
-        "id": "d5bb046c"
+        "id": "2a250613",
+        "location": "Puerto Vallarta, Mexico"
     },
     {
         "title": "DC Black Pride",
         "startDate": "2022-05-27T00:00:00",
-        "endDate": "2022-05-30T00:00:00",
-        "url": "https://dcblackpride.org/",
         "dateFrame": "May 27-30, 2022",
-        "city": "Washington",
-        "country": "United States",
-        "location": "Washington, United States",
-        "id": "7c9b21f9"
+        "id": "55d93022",
+        "location": "Washington, United States"
     },
     {
         "title": "Torremolinos Gay Pride",
         "startDate": "2022-05-30T00:00:00",
-        "endDate": "2022-06-05T00:00:00",
-        "url": "https://www.pridetorremolinos.es/",
         "dateFrame": "May 30 to June 5, 2022",
-        "city": "Torremolinos",
-        "country": "Spain",
-        "location": "Torremolinos, Spain",
-        "id": "c8677108"
+        "id": "6176e5d5",
+        "location": "Torremolinos, Spain"
     },
     {
         "title": "Columbus Pride",
         "startDate": "2022-06-01T00:00:00",
-        "endDate": "2022-06-25T00:00:00",
-        "url": "https://columbuspride.org/",
         "dateFrame": "June 1-25, 2022",
-        "city": "Columbus",
-        "country": "United States",
-        "location": "Columbus, United States",
-        "id": "91de2834"
+        "id": "0a2b24ed",
+        "location": "Columbus, United States"
     },
     {
         "title": "Key West Pride",
         "startDate": "2022-06-01T00:00:00",
-        "endDate": "2022-06-05T00:00:00",
-        "url": "http://www.keywestpride.org/",
         "dateFrame": "June 1-5, 2022",
-        "city": "Key West",
-        "country": "United States",
-        "location": "Key West, United States",
-        "id": "0e393b8f"
+        "id": "ea736b9f",
+        "location": "Key West, United States"
     },
     {
         "title": "Pride Winnipeg",
         "startDate": "2022-06-01T00:00:00",
-        "endDate": "2022-06-03T00:00:00",
-        "url": "https://www.pridewinnipeg.com/",
         "dateFrame": "June 1-3, 2022",
-        "city": "Winnipeg",
-        "country": "Canada",
-        "location": "Winnipeg, Canada",
-        "id": "dc326bd6"
+        "id": "7b7b95ea",
+        "location": "Winnipeg, Canada"
     },
     {
         "title": "Sonoma Pride",
         "startDate": "2022-06-01T00:00:00",
-        "endDate": "2022-06-05T00:00:00",
-        "url": "http://www.sonomacountypride.org/",
         "dateFrame": "June 1-5, 2022",
-        "city": "Santa Rosa",
-        "country": "United States",
-        "location": "Santa Rosa, United States",
-        "id": "b4839e33"
+        "id": "50510734",
+        "location": "Santa Rosa, United States"
     },
     {
         "title": "Pittsburgh Pride",
         "startDate": "2022-06-02T00:00:00",
-        "endDate": "2022-06-05T00:00:00",
-        "url": "https://lgbtqpittsburgh.com/",
         "dateFrame": "June 2-5, 2022",
-        "city": "Pittsburgh",
-        "country": "USA",
-        "location": "Pittsburgh, USA",
-        "id": "f6777b4f"
+        "id": "d14a91fb",
+        "location": "Pittsburgh, USA"
     },
     {
         "title": "Guam Pride",
         "startDate": "2022-06-03T00:00:00",
-        "endDate": "2022-06-05T00:00:00",
-        "url": "https://guampride.org/",
         "dateFrame": "June 3-5, 2022",
-        "city": "Guam",
-        "country": "Guam",
-        "location": "Guam, Guam",
-        "id": "ac01496b"
+        "id": "bc1cd671",
+        "location": "Guam, Guam"
     },
     {
         "title": "Provincetown Pride",
         "startDate": "2022-06-03T00:00:00",
-        "endDate": "2022-06-05T00:00:00",
-        "url": "https://www.ptown.org/pride/",
         "dateFrame": "June 3-5, 2022",
-        "city": "Provincetown",
-        "country": "United States",
-        "location": "Provincetown, United States",
-        "id": "b3eaf36e"
+        "id": "389d3f48",
+        "location": "Provincetown, United States"
     },
     {
         "title": "Ferndale Pride",
         "startDate": "2022-06-04T00:00:00",
-        "endDate": "2022-06-04T00:00:00",
-        "url": "https://www.ferndalepride.com/",
         "dateFrame": "June 4, 2022",
-        "city": "Ferndale",
-        "country": "United States",
-        "location": "Ferndale, United States",
-        "id": "716d3619"
+        "id": "4fc023e6",
+        "location": "Ferndale, United States"
     },
     {
         "title": "Guadalajara Pride",
         "startDate": "2022-06-04T00:00:00",
-        "endDate": "2022-06-04T00:00:00",
-        "url": "http://www.guadalajarapride.com/contacto/",
         "dateFrame": "June 4, 2022",
-        "city": "Guadalajara",
-        "country": "Mexico",
-        "location": "Guadalajara, Mexico",
-        "id": "358f3e33"
+        "id": "405d9206",
+        "location": "Guadalajara, Mexico"
     },
     {
         "title": "Naples Pride Festival",
         "startDate": "2022-06-04T00:00:00",
-        "endDate": "2022-06-04T00:00:00",
-        "url": "https://www.paradisecoast.com/event/naples-pride/5127",
         "dateFrame": "June 4, 2022",
-        "city": "Naples",
-        "country": "FL",
-        "location": "Naples, FL",
-        "id": "6e4498d9"
+        "id": "b3752e35",
+        "location": "Naples, FL"
     },
     {
         "title": "Springfield, MA Pride",
         "startDate": "2022-06-04T00:00:00",
-        "endDate": "2022-06-04T00:00:00",
-        "url": "https://www.springfieldprideparade.org/events",
         "dateFrame": "June 4, 2022",
-        "city": "Springfield",
-        "country": "MA",
-        "location": "Springfield, MA",
-        "id": "bda99cec"
+        "id": "04ebdb5a",
+        "location": "Springfield, MA"
     },
     {
         "title": "Venice Pride",
         "startDate": "2022-06-04T00:00:00",
-        "endDate": "2022-06-05T22:00:00",
-        "url": "https://venicepride.org/",
         "dateFrame": "June 4-5, 2022",
-        "city": "Los Angeles",
-        "country": "United States",
-        "location": "Los Angeles, United States",
-        "id": "1dfbe1d0"
+        "id": "4f6853c9",
+        "location": "Los Angeles, United States"
     },
     {
         "title": "Middletown Pride",
         "startDate": "2022-06-04T14:00:00",
-        "endDate": "2022-06-05T00:00:00",
-        "url": "https://middletownpride.org/",
         "dateFrame": "June 4-5, 2022",
-        "city": "Middletown",
-        "country": "United States",
-        "location": "Middletown, United States",
-        "id": "98f7bb07"
+        "id": "75f6e397",
+        "location": "Middletown, United States"
     },
     {
         "title": "Albuquerque PrideFest",
         "startDate": "2022-06-06T00:00:00",
-        "endDate": "2022-06-11T00:00:00",
-        "url": "http://abqpride.com/",
         "dateFrame": "June 6-11, 2022",
-        "city": "Albuquerque",
-        "country": "United States",
-        "location": "Albuquerque, United States",
-        "id": "a5039044"
+        "id": "8ba08013",
+        "location": "Albuquerque, United States"
     },
     {
         "title": "Brooklyn Pride",
         "startDate": "2022-06-06T00:00:00",
-        "endDate": "2022-06-12T00:00:00",
-        "url": "https://www.facebook.com/BrooklynPrideInc",
         "dateFrame": "June 6-12, 2022",
-        "city": "Brooklyn",
-        "country": "United States",
-        "location": "Brooklyn, United States",
-        "id": "8202a985"
+        "id": "077b306f",
+        "location": "Brooklyn, United States"
     },
     {
         "title": "Ibiza Gay Pride",
         "startDate": "2022-06-10T00:00:00",
-        "endDate": "2022-06-18T00:00:00",
-        "url": "http://ibizagaypride.eu/?lang=en",
         "dateFrame": "June 10-18, 2022",
-        "city": "Ibiza",
-        "country": "Spain",
-        "location": "Ibiza, Spain",
-        "id": "04e42808"
+        "id": "898eff4b",
+        "location": "Ibiza, Spain"
     },
     {
         "title": "LA Pride",
         "startDate": "2022-06-10T00:00:00",
-        "endDate": "2022-06-12T00:00:00",
-        "url": "https://lapride.org/",
         "dateFrame": "June 10-12, 2022",
-        "city": "Los Angeles",
-        "country": "United States",
-        "location": "Los Angeles, United States",
-        "id": "d79a5ce3"
+        "id": "abea8943",
+        "location": "Los Angeles, United States"
     },
     {
         "title": "Central Alabama Pride",
         "startDate": "2022-06-11T00:00:00",
-        "endDate": "2022-06-11T00:00:00",
-        "url": "https://www.centralalabamapride.org/",
         "dateFrame": "June 11, 2022",
-        "city": "Birmingham",
-        "country": "United States",
-        "location": "Birmingham, United States",
-        "id": "2337e564"
+        "id": "9f740162",
+        "location": "Birmingham, United States"
     },
     {
         "title": "Motor City Pride",
         "startDate": "2022-06-11T00:00:00",
-        "endDate": "2022-06-12T00:00:00",
-        "url": "http://motorcitypride.org/",
         "dateFrame": "June 11-12, 2022",
-        "city": "Detroit",
-        "country": "United States",
-        "location": "Detroit, United States",
-        "id": "ece65a6f"
+        "id": "b52034a5",
+        "location": "Detroit, United States"
     },
     {
         "title": "Varese Pride",
         "startDate": "2022-06-11T00:00:00",
-        "endDate": "2022-06-18T00:00:00",
-        "url": "https://www.varesepride.it/",
         "dateFrame": "June 11-18, 2022",
-        "city": "Varese",
-        "country": "Italy",
-        "location": "Varese, Italy",
-        "id": "d3228a79"
+        "id": "abc88327",
+        "location": "Varese, Italy"
     },
     {
         "title": "Say it Loud! Black & Latino Gay Pride",
         "startDate": "2022-06-11T12:00:00",
-        "endDate": "2022-06-11T17:00:00",
-        "url": "http://www.blackandlatinogaypride.com/",
         "dateFrame": "June 11, 2022",
-        "city": "Albany",
-        "country": "United States",
-        "location": "Albany, United States",
-        "id": "9fa15dbe"
+        "id": "032cb715",
+        "location": "Albany, United States"
     },
     {
         "title": "Long Island Pride",
         "startDate": "2022-06-12T00:00:00",
-        "endDate": "2022-06-12T00:00:00",
-        "url": "https://prideonthebeach.org/",
         "dateFrame": "June 12, 2022",
-        "city": "East Meadow",
-        "country": "NY United States",
-        "location": "East Meadow, NY United States",
-        "id": "d661c524"
+        "id": "5c6e91c6",
+        "location": "East Meadow, NY United States"
     },
     {
         "title": "Frankfurt Pride",
         "startDate": "2022-06-14T00:00:00",
-        "endDate": "2022-06-17T00:00:00",
-        "url": "http://www.gayfrankfurt4u.com/events/csd-frankfurt-gay-pride/",
         "dateFrame": "June 14-17, 2022",
-        "city": "Frankfurt",
-        "country": "Germany",
-        "location": "Frankfurt, Germany",
-        "id": "99176804"
+        "id": "c0aef596",
+        "location": "Frankfurt, Germany"
     },
     {
         "title": "26th São Paulo LGBT+ Pride Parade",
         "startDate": "2022-06-16T00:00:00",
-        "endDate": "2022-06-19T00:00:00",
-        "url": "http://paradasp.org.br/",
         "dateFrame": "June 16-19, 2022",
-        "city": "Brazil",
-        "country": "São Paulo",
-        "location": "Brazil, São Paulo",
-        "id": "d49b745c"
+        "id": "93666a99",
+        "location": "Brazil, São Paulo"
     },
     {
         "title": "Milan Pride",
         "startDate": "2022-06-16T00:00:00",
-        "endDate": "2022-07-03T00:00:00",
-        "url": "https://www.milanopride.it/",
         "dateFrame": "June 16 to July 3, 2022",
-        "city": "Milan",
-        "country": "Italy",
-        "location": "Milan, Italy",
-        "id": "9856f8ec"
+        "id": "dfcf07a7",
+        "location": "Milan, Italy"
     },
     {
         "title": "Bisbee Pride",
         "startDate": "2022-06-17T00:00:00",
-        "endDate": "2022-06-19T00:00:00",
-        "url": "https://www.facebook.com/bisbeepride/",
         "dateFrame": "June 17-19, 2022",
-        "city": "Bisbee",
-        "country": "United States",
-        "location": "Bisbee, United States",
-        "id": "fdada754"
+        "id": "ca5437aa",
+        "location": "Bisbee, United States"
     },
     {
         "title": "Chicago Pride",
         "startDate": "2022-06-17T00:00:00",
-        "endDate": "2022-06-19T00:00:00",
-        "url": "https://northalsted.com/pridefest/",
         "dateFrame": "June 17-19, 2022",
-        "city": "Chicago",
-        "country": "United States",
-        "location": "Chicago, United States",
-        "id": "9244f743"
+        "id": "996a204b",
+        "location": "Chicago, United States"
     },
     {
         "title": "Christchurch Pride",
         "startDate": "2022-06-17T00:00:00",
-        "endDate": "2022-06-28T00:00:00",
-        "url": "http://chchpride.co.nz",
         "dateFrame": "June 17-28, 2022",
-        "city": "Christchurch",
-        "country": "New Zealand",
-        "location": "Christchurch, New Zealand",
-        "id": "37b57cd0"
+        "id": "9057a393",
+        "location": "Christchurch, New Zealand"
     },
     {
         "title": "Zurich Pride Festival",
         "startDate": "2022-06-17T00:00:00",
-        "endDate": "2022-06-18T00:00:00",
-        "url": "http://zurichpridefestival.ch/",
         "dateFrame": "June 17-18, 2022",
-        "city": "Zurich",
-        "country": "Switzerland",
-        "location": "Zurich, Switzerland",
-        "id": "cd05d295"
+        "id": "ab82bfb5",
+        "location": "Zurich, Switzerland"
     },
     {
         "title": "Colombo Pride",
         "startDate": "2022-06-18T00:00:00",
-        "endDate": "2022-06-26T00:00:00",
-        "url": "https://www.facebook.com/ColomboPRIDESriLanka/",
         "dateFrame": "June 18-26, 2022",
-        "city": "Colombo",
-        "country": "Sri Lanka",
-        "location": "Colombo, Sri Lanka",
-        "id": "364fa811"
+        "id": "c58fd8d8",
+        "location": "Colombo, Sri Lanka"
     },
     {
         "title": "Oslo Pride",
         "startDate": "2022-06-18T00:00:00",
-        "endDate": "2022-06-28T00:00:00",
-        "url": "https://www.facebook.com/oslopride",
         "dateFrame": "June 18-28, 2022",
-        "city": "Oslo",
-        "country": "Norway",
-        "location": "Oslo, Norway",
-        "id": "5ec52249"
+        "id": "0ae928e1",
+        "location": "Oslo, Norway"
     },
     {
         "title": "Pride Barcelona",
         "startDate": "2022-06-18T00:00:00",
-        "endDate": "2022-06-26T00:00:00",
-        "url": "http://www.pridebarcelona.org/comunicado-de-pride-bcn/",
         "dateFrame": "June 18-26, 2022",
-        "city": "Barcelona",
-        "country": "Spain",
-        "location": "Barcelona, Spain",
-        "id": "aeca5f15"
+        "id": "aa28f5d3",
+        "location": "Barcelona, Spain"
     },
     {
         "title": "Pride Portland",
         "startDate": "2022-06-18T00:00:00",
-        "endDate": "2022-06-18T00:00:00",
-        "url": "https://prideportland.org/",
         "dateFrame": "June 18, 2022",
-        "city": "Portland",
-        "country": "United States",
-        "location": "Portland, United States",
-        "id": "ae7d2568"
+        "id": "3210c56d",
+        "location": "Portland, United States"
     },
     {
         "title": "Rhode Island Pride",
         "startDate": "2022-06-18T00:00:00",
-        "endDate": "2022-06-18T00:00:00",
-        "url": "https://prideri.org/",
         "dateFrame": "June 18, 2022",
-        "city": "Providence",
-        "country": "United States",
-        "location": "Providence, United States",
-        "id": "d46a9303"
+        "id": "67d0b99c",
+        "location": "Providence, United States"
     },
     {
         "title": "Sofia Pride",
         "startDate": "2022-06-18T00:00:00",
-        "endDate": "2022-06-18T00:00:00",
-        "url": "http://sofiapride.org/",
         "dateFrame": "June 18, 2022",
-        "city": "Sofia",
-        "country": "Bulgaria",
-        "location": "Sofia, Bulgaria",
-        "id": "86bc6323"
+        "id": "87307126",
+        "location": "Sofia, Bulgaria"
     },
     {
         "title": "York Pride Fest",
         "startDate": "2022-06-18T00:00:00",
-        "endDate": "2022-06-18T00:00:00",
-        "url": "yorkpridefest.com",
         "dateFrame": "June 18, 2022",
-        "city": "York",
-        "country": "Canada",
-        "location": "York, Canada",
-        "id": "3caa9ba5"
+        "id": "9d45cbc2",
+        "location": "York, Canada"
     },
     {
         "title": "24th São Paulo LGBT Pride Parade",
         "startDate": "2022-06-19T00:00:00",
-        "endDate": "2022-06-19T00:00:00",
-        "url": "http://paradasp.org.br/agenda/",
         "dateFrame": "June 19, 2022",
-        "city": "São Paulo",
-        "country": "Brazil",
-        "location": "São Paulo, Brazil",
-        "id": "3fedacca"
+        "id": "13c51e3d",
+        "location": "São Paulo, Brazil"
     },
     {
         "title": "Lisbon Gay Pride",
         "startDate": "2022-06-19T00:00:00",
-        "endDate": "2022-06-26T00:00:00",
-        "url": "https://www.gaytravel4u.com/event/lisbon-gay-pride/",
         "dateFrame": "June 19-26, 2022",
-        "city": "Lisbon",
-        "country": "Portugal",
-        "location": "Lisbon, Portugal",
-        "id": "83bd800f"
+        "id": "0a0b478e",
+        "location": "Lisbon, Portugal"
     },
     {
         "title": "Baltimore Pride",
         "startDate": "2022-06-20T00:00:00",
-        "endDate": "2022-06-26T00:00:00",
-        "url": "http://baltimorepride.org/",
         "dateFrame": "June 20-26, 2022",
-        "city": "Baltimore",
-        "country": "United States",
-        "location": "Baltimore, United States",
-        "id": "4b5b3a8c"
+        "id": "84487e97",
+        "location": "Baltimore, United States"
     },
     {
         "title": "Oklahoma City Pride",
         "startDate": "2022-06-24T00:00:00",
-        "endDate": "2022-06-26T00:00:00",
-        "url": "https://www.facebook.com/okcpridefest",
         "dateFrame": "June 24-26, 2022",
-        "city": "Oklahoma City",
-        "country": "United States",
-        "location": "Oklahoma City, United States",
-        "id": "97929461"
+        "id": "b77b5414",
+        "location": "Oklahoma City, United States"
     },
     {
         "title": "Pride Toronto",
         "startDate": "2022-06-24T00:00:00",
-        "endDate": "2022-06-26T00:00:00",
-        "url": "http://www.pridetoronto.com/",
         "dateFrame": "June 24-26, 2022",
-        "city": "Toronto",
-        "country": "Canada",
-        "location": "Toronto, Canada",
-        "id": "ac2c16dc"
+        "id": "da5cbcd1",
+        "location": "Toronto, Canada"
     },
     {
         "title": "Tulsa Pride",
         "startDate": "2022-06-24T00:00:00",
-        "endDate": "2022-06-26T00:00:00",
-        "url": "http://www.okeq.org/tulsa-pride.html",
         "dateFrame": "June 24-26, 2022",
-        "city": "Tulsa",
-        "country": "United States",
-        "location": "Tulsa, United States",
-        "id": "2a4ecae6"
+        "id": "27ed0a37",
+        "location": "Tulsa, United States"
     },
     {
         "title": "Andalucia Pride 2022",
         "startDate": "2022-06-25T00:00:00",
-        "endDate": "2022-06-25T00:00:00",
-        "url": "https://www.patroc.com/gay/seville/d/gaypride.html",
         "dateFrame": "June 25, 2022",
-        "city": "Seville",
-        "country": "Spain",
-        "location": "Seville, Spain",
-        "id": "cb8f1025"
+        "id": "84a694f1",
+        "location": "Seville, Spain"
     },
     {
         "title": "Bristol Pride",
         "startDate": "2022-06-25T00:00:00",
-        "endDate": "2022-07-10T00:00:00",
-        "url": "https://bristolpride.co.uk/",
         "dateFrame": "June 25 to July 10, 2022",
-        "city": "Bristol",
-        "country": "United Kingdom",
-        "location": "Bristol, United Kingdom",
-        "id": "4cdd55d7"
+        "id": "0bf76159",
+        "location": "Bristol, United Kingdom"
     },
     {
         "title": "Denver Pride Fest",
         "startDate": "2022-06-25T00:00:00",
-        "endDate": "2022-06-26T00:00:00",
-        "url": "https://denverpride.org/",
         "dateFrame": "June 25-26, 2022",
-        "city": "Denver",
-        "country": "United States",
-        "location": "Denver, United States",
-        "id": "6bf9705b"
+        "id": "d35984da",
+        "location": "Denver, United States"
     },
     {
         "title": "Dublin LGBTQ Pride",
         "startDate": "2022-06-25T00:00:00",
-        "endDate": "2022-06-25T00:00:00",
-        "url": "http://dublinpride.ie/",
         "dateFrame": "June 25, 2022",
-        "city": "Dublin",
-        "country": "Ireland",
-        "location": "Dublin, Ireland",
-        "id": "148414a5"
+        "id": "efe6548d",
+        "location": "Dublin, Ireland"
     },
     {
         "title": "Lexington Pride Festival",
         "startDate": "2022-06-25T00:00:00",
-        "endDate": "2022-06-25T00:00:00",
-        "url": "https://www.lexpridefest.org/",
         "dateFrame": "June 25, 2022",
-        "city": "Lexington",
-        "country": "United States",
-        "location": "Lexington, United States",
-        "id": "44369fc0"
+        "id": "63ca7c3d",
+        "location": "Lexington, United States"
     },
     {
         "title": "Marche des Fiertés",
         "startDate": "2022-06-25T00:00:00",
-        "endDate": "2022-06-25T00:00:00",
-        "url": "https://www.inter-lgbt.org/date-marche-2020/",
         "dateFrame": "June 25, 2022",
-        "city": "Paris",
-        "country": "France",
-        "location": "Paris, France",
-        "id": "cb341cea"
+        "id": "cb366eac",
+        "location": "Paris, France"
     },
     {
         "title": "Nashville Pride",
         "startDate": "2022-06-25T00:00:00",
-        "endDate": "2022-06-26T00:00:00",
-        "url": "https://www.nashvillepride.org/",
         "dateFrame": "June 25-26, 2022",
-        "city": "Nashville",
-        "country": "United States",
-        "location": "Nashville, United States",
-        "id": "62f609c0"
+        "id": "d345ccb3",
+        "location": "Nashville, United States"
     },
     {
         "title": "Orange County LGBT Pride",
         "startDate": "2022-06-25T00:00:00",
-        "endDate": "2022-06-25T00:00:00",
-        "url": "https://www.prideoc.com/",
         "dateFrame": "June 25, 2022",
-        "city": "Santa Ana",
-        "country": "United States",
-        "location": "Santa Ana, United States",
-        "id": "87d28575"
+        "id": "70aac444",
+        "location": "Santa Ana, United States"
     },
     {
         "title": "Paris Pride",
         "startDate": "2022-06-25T00:00:00",
-        "endDate": "2022-06-25T00:00:00",
-        "url": "http://www.inter-lgbt.org/",
         "dateFrame": "June 25, 2022",
-        "city": "Paris",
-        "country": "France",
-        "location": "Paris, France",
-        "id": "6b88f9e1"
+        "id": "0d5bd56b",
+        "location": "Paris, France"
     },
     {
         "title": "San Francisco Pride",
         "startDate": "2022-06-25T00:00:00",
-        "endDate": "2022-06-26T00:00:00",
-        "url": "http://www.sfpride.org/",
         "dateFrame": "June 25-26, 2022",
-        "city": "San Francisco",
-        "country": "United States",
-        "location": "San Francisco, United States",
-        "id": "e1616bff"
+        "id": "a8cb563e",
+        "location": "San Francisco, United States"
     },
     {
         "title": "Twin Cities Pride",
         "startDate": "2022-06-25T00:00:00",
-        "endDate": "2022-06-26T18:00:00",
-        "url": "https://tcpride.org/parade/",
         "dateFrame": "June 25-26, 2022",
-        "city": "Minneapolis",
-        "country": "United States",
-        "location": "Minneapolis, United States",
-        "id": "04469780"
+        "id": "f7880c62",
+        "location": "Minneapolis, United States"
     },
     {
         "title": "Winter Pride Dublin",
         "startDate": "2022-06-25T00:00:00",
-        "endDate": "2022-06-25T00:00:00",
-        "url": "http://winterpride.ie/",
         "dateFrame": "June 25, 2022",
-        "city": "Dublin",
-        "country": "Ireland",
-        "location": "Dublin, Ireland",
-        "id": "11106c3d"
+        "id": "e94f96fd",
+        "location": "Dublin, Ireland"
     },
     {
         "title": "Seattle Pride",
         "startDate": "2022-06-26T00:00:00",
-        "endDate": "2022-06-26T00:00:00",
-        "url": "https://www.seattlepride.org/",
         "dateFrame": "June 26, 2022",
-        "city": "Seattle",
-        "country": "United States",
-        "location": "Seattle, United States",
-        "id": "68644df0"
+        "id": "3bd8b71a",
+        "location": "Seattle, United States"
     },
     {
         "title": "Raleigh Pride",
         "startDate": "2022-06-27T00:00:00",
-        "endDate": "2022-06-27T00:00:00",
-        "url": "https://www.outraleigh.org/",
         "dateFrame": "June 27, 2022",
-        "city": "Raleigh",
-        "country": "United States",
-        "location": "Raleigh, United States",
-        "id": "398a7ee9"
+        "id": "24836ab6",
+        "location": "Raleigh, United States"
     },
     {
         "title": "Luxembourg Pride",
         "startDate": "2022-07-01T00:00:00",
-        "endDate": "2022-07-10T00:00:00",
-        "url": "http://gaymat.lu/en/",
         "dateFrame": "July 1-10, 2022",
-        "city": "Luxembourg",
-        "country": "Luxembourg",
-        "location": "Luxembourg, Luxembourg",
-        "id": "464a378a"
+        "id": "247d5abd",
+        "location": "Luxembourg, Luxembourg"
     },
     {
         "title": "Cologne Gay Pride",
         "startDate": "2022-07-02T00:00:00",
-        "endDate": "2022-07-05T00:00:00",
-        "url": "https://www.patroc.com/gay/cologne/d/csd-koeln-gaypride.html",
         "dateFrame": "July 2-5, 2022",
-        "city": "Cologne",
-        "country": "Germany",
-        "location": "Cologne, Germany",
-        "id": "ff416bf7"
+        "id": "e231c658",
+        "location": "Cologne, Germany"
     },
     {
         "title": "Munich Gay Pride",
         "startDate": "2022-07-02T00:00:00",
-        "endDate": "2022-07-17T00:00:00",
-        "url": "https://www.patroc.com/gay/munich/d/csd-muenchen-gaypride.html",
         "dateFrame": "July 2-17, 2022",
-        "city": "Munich",
-        "country": "Germany",
-        "location": "Munich, Germany",
-        "id": "2cf14a0e"
+        "id": "b0acf875",
+        "location": "Munich, Germany"
     },
     {
         "title": "Pride London",
         "startDate": "2022-07-02T00:00:00",
-        "endDate": "2022-07-02T00:00:00",
-        "url": "https://prideinlondon.org/",
         "dateFrame": "July 2, 2022",
-        "city": "London",
-        "country": "United Kingdom",
-        "location": "London, United Kingdom",
-        "id": "7846d95b"
+        "id": "556d94ef",
+        "location": "London, United Kingdom"
     },
     {
         "title": "Brasília Orgulho",
         "startDate": "2022-07-03T00:00:00",
-        "endDate": "2022-07-03T00:00:00",
-        "url": "https://brasiliaorgulho.lgbt/",
         "dateFrame": "July 3, 2022",
-        "city": "Brasilia",
-        "country": "Brazil",
-        "location": "Brasilia, Brazil",
-        "id": "5a7b9089"
+        "id": "0fbeed63",
+        "location": "Brasilia, Brazil"
     },
     {
         "title": "Long Beach Pride",
         "startDate": "2022-07-08T00:00:00",
-        "endDate": "2022-07-10T00:00:00",
-        "url": "https://www.longbeachpride.com/",
         "dateFrame": "July 8-10, 2022",
-        "city": "Long Beach",
-        "country": "United States",
-        "location": "Long Beach, United States",
-        "id": "64f0fa4f"
+        "id": "4932d18a",
+        "location": "Long Beach, United States"
     },
     {
         "title": "San Diego LGBT Pride",
         "startDate": "2022-07-09T00:00:00",
-        "endDate": "2022-07-17T00:00:00",
-        "url": "https://sdpride.org/",
         "dateFrame": "July 9-17, 2022",
-        "city": "San Diego",
-        "country": "United States",
-        "location": "San Diego, United States",
-        "id": "0df505f9"
+        "id": "b0d57032",
+        "location": "San Diego, United States"
     },
     {
         "title": "Newark Gay Pride",
         "startDate": "2022-07-11T00:00:00",
-        "endDate": "2022-07-17T00:00:00",
-        "url": "https://newarkpride.org/",
         "dateFrame": "July 11-17, 2022",
-        "city": "Newark",
-        "country": "United States",
-        "location": "Newark, United States",
-        "id": "91a052f3"
+        "id": "d8e97bd3",
+        "location": "Newark, United States"
     },
     {
         "title": "Pride London Festival",
         "startDate": "2022-07-14T00:00:00",
-        "endDate": "2022-07-24T00:00:00",
-        "url": "http://pridelondon.ca/",
         "dateFrame": "July 14-24, 2022",
-        "city": "London",
-        "country": "Canada",
-        "location": "London, Canada",
-        "id": "cda7e2b4"
+        "id": "67941662",
+        "location": "London, Canada"
     },
     {
         "title": "Hotter than July",
         "startDate": "2022-07-15T00:00:00",
-        "endDate": "2022-07-17T00:00:00",
-        "url": "https://www.lgbtdetroit.org/hotterthanjuly",
         "dateFrame": "July 15-17, 2022",
-        "city": "Detroit",
-        "country": "United States",
-        "location": "Detroit, United States",
-        "id": "9afa36c3"
+        "id": "d2fbf706",
+        "location": "Detroit, United States"
     },
     {
         "title": "Croydon Pride",
         "startDate": "2022-07-16T00:00:00",
-        "endDate": "2022-07-16T00:00:00",
-        "url": "http://www.croydonpride.org.uk)",
         "dateFrame": "July 16, 2022",
-        "city": "Croydon",
-        "country": "United Kingdom",
-        "location": "Croydon, United Kingdom",
-        "id": "fd52aa4b"
+        "id": "c65263c0",
+        "location": "Croydon, United Kingdom"
     },
     {
         "title": "Isle Of Wight Pride",
         "startDate": "2022-07-16T00:00:00",
-        "endDate": "2022-07-16T00:00:00",
-        "url": "https://www.iwpride.org/",
         "dateFrame": "July 16, 2022",
-        "city": "Isle Of Wight",
-        "country": "Ryde",
-        "location": "Isle Of Wight, Ryde",
-        "id": "f85220df"
+        "id": "7bdf12f4",
+        "location": "Isle Of Wight, Ryde"
     },
     {
         "title": "Manuel Antonio Pride",
         "startDate": "2022-07-16T00:00:00",
-        "endDate": "2022-07-16T00:00:00",
-        "url": "https://gaymanuelantonio.wordpress.com/manuel-antonio-pride/",
         "dateFrame": "July 16, 2022",
-        "city": "Manuel Antonio",
-        "country": "Costa Rica",
-        "location": "Manuel Antonio, Costa Rica",
-        "id": "3d55e9a1"
+        "id": "40c30e5e",
+        "location": "Manuel Antonio, Costa Rica"
     },
     {
         "title": "Reading Pride Celebration",
         "startDate": "2022-07-17T00:00:00",
-        "endDate": "2022-07-17T00:00:00",
-        "url": "http://www.readingpridecelebration.org/",
         "dateFrame": "July 17, 2022",
-        "city": "Reading",
-        "country": "PA",
-        "location": "Reading, PA",
-        "id": "7690ff1d"
+        "id": "20dbe02f",
+        "location": "Reading, PA"
     },
     {
         "title": "Berlin Christopher Street Day",
         "startDate": "2022-07-23T00:00:00",
-        "endDate": "2022-07-23T00:00:00",
-        "url": "http://csd-berlin.de/event-info-en/",
         "dateFrame": "July 23, 2022",
-        "city": "Berlin",
-        "country": "Germany",
-        "location": "Berlin, Germany",
-        "id": "e3dfb2d8"
+        "id": "c7eebe74",
+        "location": "Berlin, Germany"
     },
     {
         "title": "Reykjavík Pride",
         "startDate": "2022-08-02T00:00:00",
-        "endDate": "2022-08-07T00:00:00",
-        "url": "http://hinsegindagar.is/en/",
         "dateFrame": "August 2-7, 2022",
-        "city": "Reykjavík",
-        "country": "Iceland",
-        "location": "Reykjavík, Iceland",
-        "id": "1658bf7f"
+        "id": "c6116a9f",
+        "location": "Reykjavík, Iceland"
     },
     {
         "title": "Amsterdam Pride",
         "startDate": "2022-08-05T00:00:00",
-        "endDate": "2022-08-07T00:00:00",
-        "url": "https://www.amsterdamgaypride.nl/",
         "dateFrame": "August 5-7, 2022",
-        "city": "Amsterdam",
-        "country": "Netherlands",
-        "location": "Amsterdam, Netherlands",
-        "id": "dc15ffdd"
+        "id": "a9a2b002",
+        "location": "Amsterdam, Netherlands"
     },
     {
         "title": "Leeds Pride",
         "startDate": "2022-08-07T00:00:00",
-        "endDate": "2022-08-07T00:00:00",
-        "url": "http://www.leedspride.com/",
         "dateFrame": "August 7, 2022",
-        "city": "Leeds",
-        "country": "United Kingdom",
-        "location": "Leeds, United Kingdom",
-        "id": "80428309"
+        "id": "08910985",
+        "location": "Leeds, United Kingdom"
     },
     {
         "title": "Stockholm Pride",
         "startDate": "2022-08-07T00:00:00",
-        "endDate": "2022-08-07T00:00:00",
-        "url": "http://www.stockholmpride.org/en/",
         "dateFrame": "August 7, 2022",
-        "city": "Stockholm",
-        "country": "Sweden",
-        "location": "Stockholm, Sweden",
-        "id": "f4ee86c1"
+        "id": "3ebad86b",
+        "location": "Stockholm, Sweden"
     },
     {
         "title": "Prague Pride Parade",
         "startDate": "2022-08-08T00:00:00",
-        "endDate": "2022-08-14T00:00:00",
-        "url": "https://www.praguepride.cz/en/",
         "dateFrame": "August 8-14, 2022",
-        "city": "Prague",
-        "country": "Czech Republic",
-        "location": "Prague, Czech Republic",
-        "id": "4b759b23"
+        "id": "bfa76250",
+        "location": "Prague, Czech Republic"
     },
     {
         "title": "Alki Beach Pride",
         "startDate": "2022-08-13T00:00:00",
-        "endDate": "2022-08-14T00:00:00",
-        "url": "https://www.alkibeachpride.org/",
         "dateFrame": "August 13-14, 2022",
-        "city": "West Seattle",
-        "country": "United States",
-        "location": "West Seattle, United States",
-        "id": "6ba094d6"
+        "id": "5db09767",
+        "location": "West Seattle, United States"
     },
     {
         "title": "Copenhagen Pride",
         "startDate": "2022-08-15T00:00:00",
-        "endDate": "2022-08-21T00:00:00",
-        "url": "http://copenhagenpride.dk/#!/en/home",
         "dateFrame": "August 15-21, 2022",
-        "city": "Copenhagen",
-        "country": "Demark",
-        "location": "Copenhagen, Demark",
-        "id": "1093c33a"
+        "id": "da32a46e",
+        "location": "Copenhagen, Demark"
     },
     {
         "title": "Lehigh Valley Pride",
         "startDate": "2022-08-21T12:00:00",
-        "endDate": "2022-08-21T18:00:00",
-        "url": "https://www.bradburysullivancenter.org/pride",
         "dateFrame": "August 21, 2022",
-        "city": "Allentown",
-        "country": "United States",
-        "location": "Allentown, United States",
-        "id": "6238f2ca"
+        "id": "258c02d0",
+        "location": "Allentown, United States"
     },
     {
         "title": "Silicon Valley Pride",
         "startDate": "2022-08-22T00:00:00",
-        "endDate": "2022-08-28T00:00:00",
-        "url": "http://www.svpride.com",
         "dateFrame": "August 22-28, 2022",
-        "city": "San Jose",
-        "country": "United States",
-        "location": "San Jose, United States",
-        "id": "9bfea39d"
+        "id": "9e29778e",
+        "location": "San Jose, United States"
     },
     {
         "title": "Malta Pride",
         "startDate": "2022-09-02T00:00:00",
-        "endDate": "2022-09-11T00:00:00",
-        "url": "http://www.maltapride.org/",
         "dateFrame": "September 2-11, 2022",
-        "city": "Valletta",
-        "country": "Malta",
-        "location": "Valletta, Malta",
-        "id": "2d0ac19f"
+        "id": "6b6bdc13",
+        "location": "Valletta, Malta"
     },
     {
         "title": "Parade of the LGBTQ+ Pride of Cabo Frio",
         "startDate": "2022-09-04T00:00:00",
-        "endDate": "2022-09-04T00:00:00",
-        "url": "https://www.facebook.com/grupo.iguais/",
         "dateFrame": "September 4, 2022",
-        "city": "Cabo Frio",
-        "country": "Brazil",
-        "location": "Cabo Frio, Brazil",
-        "id": "2639571f"
+        "id": "0bbda36f",
+        "location": "Cabo Frio, Brazil"
     },
     {
         "title": "Kona Hawaii Pride",
         "startDate": "2022-09-16T00:00:00",
-        "endDate": "2022-09-18T00:00:00",
-        "url": "https://www.konapride.com/",
         "dateFrame": "September 16-18, 2022",
-        "city": "Kona",
-        "country": "United States",
-        "location": "Kona, United States",
-        "id": "7ef61512"
+        "id": "ac0972a9",
+        "location": "Kona, United States"
     },
     {
         "title": "Shenandoah Valley Pride",
         "startDate": "2022-09-17T00:00:00",
-        "endDate": "2022-09-17T00:00:00",
-        "url": "http://www.shenandoahvalleypride.org/",
         "dateFrame": "September 17, 2022",
-        "city": "Harrisonburg",
-        "country": "United States",
-        "location": "Harrisonburg, United States",
-        "id": "c67b3825"
+        "id": "d9f6b3a7",
+        "location": "Harrisonburg, United States"
     },
     {
         "title": "Birmingham Pride",
         "startDate": "2022-09-24T00:00:00",
-        "endDate": "2022-09-25T00:00:00",
-        "url": "https://www.birminghampride.com/",
         "dateFrame": "September 24-25, 2022",
-        "city": "Birmingham",
-        "country": "United Kingdom",
-        "location": "Birmingham, United Kingdom",
-        "id": "711fbc3f"
+        "id": "e79f25ed",
+        "location": "Birmingham, United Kingdom"
     },
     {
         "title": "Hispanic LGBT Pride",
         "startDate": "2022-10-01T00:00:00",
-        "endDate": "2022-10-01T00:00:00",
-        "url": "https://www.celebrateorgullo.com/",
         "dateFrame": "October 1, 2022",
-        "city": "Miami",
-        "country": "United States",
-        "location": "Miami, United States",
-        "id": "671b9c3e"
+        "id": "e494ffae",
+        "location": "Miami, United States"
     },
     {
         "title": "Ozark Pride Celebration",
         "startDate": "2022-10-08T00:00:00",
-        "endDate": "2022-10-08T00:00:00",
-        "url": "https://ozarkspridefest.com/",
         "dateFrame": "October 8, 2022",
-        "city": "Cherokee village",
-        "country": "United States",
-        "location": "Cherokee village, United States",
-        "id": "ccf79eca"
+        "id": "48fa91e1",
+        "location": "Cherokee village, United States"
     },
     {
         "title": "Come Out With Pride",
         "startDate": "2022-10-15T00:00:00",
-        "endDate": "2022-10-15T00:00:00",
-        "url": "https://www.comeoutwithpride.org",
         "dateFrame": "October 15, 2022",
-        "city": "Orlando",
-        "country": "United States",
-        "location": "Orlando, United States",
-        "id": "2042dcd3"
+        "id": "b0af1530",
+        "location": "Orlando, United States"
     },
     {
         "title": "Honolulu  Pride",
         "startDate": "2022-10-15T00:00:00",
-        "endDate": "2022-10-15T00:00:00",
-        "url": "https://hawaiilgbtlegacyfoundation.com/honolulu-pride-2019/",
         "dateFrame": "October 15, 2022",
-        "city": "Honolulu",
-        "country": "United States",
-        "location": "Honolulu, United States",
-        "id": "a7df6cdc"
+        "id": "06db4774",
+        "location": "Honolulu, United States"
     },
     {
         "title": "Spencer Pride Festival",
         "startDate": "2022-10-15T00:00:00",
-        "endDate": "2022-10-15T00:00:00",
-        "url": "https://spencerpride.org/festival/",
         "dateFrame": "October 15, 2022",
-        "city": "Spencer (IN)",
-        "country": "United States",
-        "location": "Spencer (IN), United States",
-        "id": "b9dccd72"
+        "id": "a4c53c0a",
+        "location": "Spencer (IN), United States"
     },
     {
         "title": "Pride of the Americas 2020",
         "startDate": "2023-02-01T00:00:00",
-        "endDate": "2023-02-01T00:00:00",
-        "url": "http://pridefortlauderdale.org/",
         "dateFrame": "February 1, 2023",
-        "city": "Fort Lauderdale",
-        "country": "USA",
-        "location": "Fort Lauderdale,USA",
-        "id": "d5af42f7"
+        "id": "e2c0ce12",
+        "location": "Fort Lauderdale,USA"
     },
     {
         "title": "Tel Aviv Pride",
         "startDate": "2022-06-10T00:00:00",
-        "endDate": "2022-06-10T00:00:00",
-        "city": "Tel Aviv",
-        "country": "Israel",
         "dateFrame": "June 10, 2022",
-        "id": "f78988d5",
-        "location": "Tel Aviv, Israel",
-        "url": "https://www.facebook.com/pridetelaviv"
+        "id": "ed6b96c5",
+        "location": "Tel Aviv, Israel"
+    },
+    {
+        "title": "Jerusalem Pride",
+        "startDate": "2022-06-02T00:00:00",
+        "dateFrame": "June 2, 2022",
+        "id": "f30c2968",
+        "location": "Jerusalem, Israel"
+    },
+    {
+        "title": "International Women's Day",
+        "startDate": "2022-03-08T00:00:00",
+        "dateFrame": "March 8, 2022",
+        "id": "5dcd1583",
+        "location": "International"
+    },
+    {
+        "title": "International Transgender Day of Visibility",
+        "startDate": "2022-03-08T00:00:00",
+        "dateFrame": "March 8, 2022",
+        "id": "a78dc954",
+        "location": "International"
+    },
+    {
+        "title": "Lesbian Visibility Day",
+        "startDate": "2022-04-26T00:00:00",
+        "dateFrame": "April 26, 2022",
+        "id": "331fa386",
+        "location": "International"
+    },
+    {
+        "title": "Stonewall Riots Anniversary",
+        "startDate": "2022-06-28T00:00:00",
+        "dateFrame": "June 28, 2022",
+        "id": "669e905f",
+        "location": "International"
+    },
+    {
+        "title": "International Non-Binary People's Day",
+        "startDate": "2022-07-14T00:00:00",
+        "dateFrame": "July 14, 2022",
+        "id": "a7e5e080",
+        "location": "International"
+    },
+    {
+        "title": "National Coming Out Day",
+        "startDate": "2022-10-11T00:00:00",
+        "dateFrame": "October 11, 2022",
+        "id": "9305ebfd",
+        "location": "International"
+    },
+    {
+        "title": "World AIDS Day",
+        "startDate": "2022-12-01T00:00:00",
+        "dateFrame": "December 1, 2022",
+        "id": "6e4f25ad",
+        "location": "International"
     }
 ]
