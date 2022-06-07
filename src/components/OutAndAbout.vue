@@ -1,0 +1,357 @@
+<template>
+  <div class="container-center-horizontal">
+    <div class="out-and-about screen">
+      <div class="jukebox-background">
+        <div class="group-container">
+          <img class="mask-group" :src="maskGroup1" /><img class="mask-group-1" :src="maskGroup2" />
+          <div class="overlap-group6">
+            <div class="bg"></div>
+            <div class="proud-all-year-round valign-text-middle">{{ proudAllYearRound }}</div>
+            <h1 class="title valign-text-middle">{{ title }}</h1>
+            <screws />
+            <div class="overlap-group4">
+              <p class="made-with-by-anima">{{ madeWithByAnima }}</p>
+              <img
+                class="heart-rainbowtrue"
+                src="https://anima-uploads.s3.amazonaws.com/projects/629dded1e3ebcb0f782c0f59/releases/629ef7c6642ada334b7f73c5/img/heart-rainbow-true-9@2x.svg"
+              />
+            </div>
+            <img class="flipper" :src="flipper" />
+            <div class="shapes-illustration">
+              <div class="overlap-group5">
+                <img
+                  class="ellipse-shape animate-enter"
+                  src="https://anima-uploads.s3.amazonaws.com/projects/629dded1e3ebcb0f782c0f59/releases/629df9aaa22ebe01b54e50eb/img/ellipse-shape-1@2x.svg"
+                />
+                <music-shape />
+                <img class="anima-logo" :src="animaLogo" />
+              </div>
+              <img class="rainbow-shape" :src="rainbowShape" />
+            </div>
+          </div>
+        </div>
+        <div class="search-bar">
+          <small-icons-search />
+          <input
+            class="search-berlin-pride-june-events"
+            name="searchberlinpridejuneevents"
+            :placeholder="inputPlaceholder"
+            :type="inputType"
+          />
+        </div>
+        <events-header
+          :title="eventsHeaderProps.title"
+          :spanText1="eventsHeaderProps.spanText1"
+          :spanText2="eventsHeaderProps.spanText2"
+          :spanText3="eventsHeaderProps.spanText3"
+          :spanText4="eventsHeaderProps.spanText4"
+        />
+        <div class="events-list">
+          <festivals-card
+            :date="festivalsCard1Props.date"
+            :eventName="festivalsCard1Props.eventName"
+            :location="festivalsCard1Props.location"
+          />
+          <festivals-card
+            :date="festivalsCard2Props.date"
+            :eventName="festivalsCard2Props.eventName"
+            :location="festivalsCard2Props.location"
+            :className="festivalsCard2Props.className"
+          />
+          <festivals-card
+            :date="festivalsCard3Props.date"
+            :eventName="festivalsCard3Props.eventName"
+            :location="festivalsCard3Props.location"
+            :className="festivalsCard3Props.className"
+          />
+          <festivals-card
+            :date="festivalsCard4Props.date"
+            :eventName="festivalsCard4Props.eventName"
+            :location="festivalsCard4Props.location"
+            :className="festivalsCard4Props.className"
+          />
+        </div>
+        <img class="footer" :src="footer" />
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import Screws from "./Screws";
+import MusicShape from "./MusicShape";
+import SmallIconsSearch from "./SmallIconsSearch";
+import EventsHeader from "./EventsHeader";
+import FestivalsCard from "./FestivalsCard";
+export default {
+  name: "OutAndAbout",
+  components: {
+    Screws,
+    MusicShape,
+    SmallIconsSearch,
+    EventsHeader,
+    FestivalsCard,
+  },
+  props: [
+    "maskGroup1",
+    "maskGroup2",
+    "proudAllYearRound",
+    "title",
+    "madeWithByAnima",
+    "flipper",
+    "animaLogo",
+    "rainbowShape",
+    "inputType",
+    "inputPlaceholder",
+    "footer",
+    "eventsHeaderProps",
+    "festivalsCard1Props",
+    "festivalsCard2Props",
+    "festivalsCard3Props",
+    "festivalsCard4Props",
+  ],
+};
+</script>
+
+<style>
+.out-and-about {
+  align-items: flex-start;
+  background: linear-gradient(180deg, rgb(242, 191, 175) 0%, rgba(51, 102, 255, 0.3) 98.7%);
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  height: 700px;
+  width: 370px;
+}
+
+.jukebox-background {
+  align-items: center;
+  background-color: var(--masala);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  min-height: 700px;
+  position: relative;
+  width: 370px;
+}
+
+.group-container {
+  height: 260px;
+  position: relative;
+  width: 370px;
+}
+
+.mask-group {
+  height: 104px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 140px;
+}
+
+.mask-group-1 {
+  height: 104px;
+  left: 230px;
+  position: absolute;
+  top: 0;
+  width: 140px;
+}
+
+.overlap-group6 {
+  height: 236px;
+  left: 75px;
+  position: absolute;
+  top: 24px;
+  width: 225px;
+}
+
+.bg {
+  background: linear-gradient(180deg, rgba(45, 45, 45, 0.7) 0%, rgba(45, 45, 45, 0) 100%);
+  border: 0.8px solid var(--bianca);
+  border-radius: 5.1px;
+  box-shadow: 0px 4.44px 3.33px 3.33px #f8d57e33;
+  height: 82px;
+  left: 0;
+  position: absolute;
+  top: 127px;
+  width: 220px;
+}
+
+.proud-all-year-round {
+  color: var(--sunset-orange);
+  font-family: var(--font-family-caveat);
+  font-size: var(--font-size-xxl);
+  font-weight: 500;
+  height: 20px;
+  left: 54px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 177px;
+  white-space: nowrap;
+}
+
+.title {
+  color: var(--bianca);
+  font-family: var(--font-family-roslindale-displayultra);
+  font-size: var(--font-size-xxxl);
+  font-weight: 400;
+  height: 40px;
+  left: 25px;
+  letter-spacing: 0;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  top: 143px;
+  white-space: nowrap;
+}
+
+.overlap-group4 {
+  height: 12px;
+  left: 0;
+  position: absolute;
+  top: 113px;
+  width: 90px;
+}
+
+.made-with-by-anima {
+  color: var(--white);
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 11.1px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.heart-rainbowtrue {
+  height: 10px;
+  left: 41px;
+  position: absolute;
+  top: 1px;
+  width: 11px;
+}
+
+.flipper {
+  height: 41px;
+  left: 138px;
+  position: absolute;
+  top: 195px;
+  width: 64px;
+}
+
+.shapes-illustration {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 20px;
+  min-height: 141px;
+  padding: 0px 0;
+  position: absolute;
+  top: 0;
+  width: 205px;
+}
+
+.overlap-group5 {
+  height: 106px;
+  margin-right: 0.13px;
+  position: relative;
+  width: 205px;
+}
+
+.ellipse-shape {
+  display: block;
+  height: 106px;
+  left: 67px;
+  position: absolute;
+  top: 0;
+  transform: rotate(5000deg);
+  width: 106px;
+}
+
+.ellipse-shape.animate-enter {
+  animation: animate-enter-frames 10s ease-in-out 0s 1 normal forwards;
+  display: block;
+  transform: rotate(5000deg);
+}
+
+.anima-logo {
+  height: 35px;
+  left: 167px;
+  position: absolute;
+  top: 70px;
+  width: 38px;
+}
+
+.rainbow-shape {
+  height: 31px;
+  margin-right: 6.09px;
+  margin-top: 4px;
+  width: 34px;
+}
+
+.search-bar {
+  align-items: center;
+  background: linear-gradient(180deg, rgb(254, 124, 108) 0%, rgb(244.38, 166.51, 142.55) 100%);
+  border: 0.5px solid var(--white);
+  border-radius: 2px;
+  display: flex;
+  height: 20px;
+  margin-right: 1px;
+  margin-top: 7px;
+  overflow: hidden;
+  padding: 0 2px;
+  position: relative;
+  width: 319px;
+}
+
+.search-berlin-pride-june-events {
+  background-color: transparent;
+  border: 0;
+  color: var(--white);
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  height: 12px;
+  letter-spacing: 0;
+  line-height: 12px;
+  margin-left: 4px;
+  opacity: 0.8;
+  padding: 0;
+  white-space: nowrap;
+  width: 150px;
+}
+
+.search-berlin-pride-june-events::placeholder {
+  color: #ffffff99;
+}
+
+.events-list {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  min-height: 280px;
+  position: relative;
+  width: 320px;
+}
+
+.footer {
+  height: 104px;
+  margin-right: 1px;
+  width: 369px;
+}
+
+@keyframes animate-enter-frames {
+  from {
+    transform: rotate(5000deg);
+  }
+  to {
+    transform: rotate(0);
+  }
+}
+</style>

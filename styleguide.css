@@ -1,0 +1,48 @@
+:root { 
+  --bianca: #fbf9f3;
+  --black: #000000;
+  --masala: #3b3b3b;
+  --nobel: #b4b4b4;
+  --sunset-orange: #ff6250;
+  --white: #ffffff;
+  --white-2: #ffffff4c;
+  --white-3: #ffffff66;
+ 
+  --font-size-l: 10px;
+  --font-size-m: 9px;
+  --font-size-s: 8px;
+  --font-size-xl: 14px;
+  --font-size-xxl: 15px;
+  --font-size-xxxl: 26px;
+ 
+  --font-family-caveat: "Caveat", Helvetica;
+  --font-family-mulish: "Mulish", Helvetica;
+  --font-family-roslindale-displayultra: "Roslindale-DisplayUltra", Helvetica;
+}
+.mulish-normal-white-9px {
+  color: var(--white);
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.mulish-bold-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.mulish-normal-white-9px-2 {
+  color: var(--white-3);
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.border-0-4px-white-2 {
+  border: 0.4px solid var(--white-2);
+}
