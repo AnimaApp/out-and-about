@@ -1,6 +1,6 @@
 <template>
   <div class="festivals-card">
-    <div class="flex-col">
+    <div :class="['flex-col', { clickable: !!url }]" @click="navigate">
       <div class="date mulish-normal-white-9px">{{ date }}</div>
       <div class="event-name mulish-bold-white-14px">{{ eventName }}</div>
       <p class="location mulish-normal-white-9px">{{ location }}</p>
@@ -33,6 +33,9 @@ export default {
     favorite: {
       type: Boolean,
       default: false
+    },
+    url: {
+      type: String
     }
   },
   computed: {
@@ -43,6 +46,11 @@ export default {
   methods: {
     onClickHeart() {
       this.$emit("click:toggle-favorite");
+    },
+    navigate() {
+      if (this.url) {
+        window.open(this.url, "_blank");
+      }
     }
   }
 };
@@ -68,6 +76,10 @@ export default {
   margin-left: 4px;
   min-height: 44px;
   width: 210px;
+}
+
+.flex-col.clickable {
+  cursor: pointer;
 }
 
 .date {

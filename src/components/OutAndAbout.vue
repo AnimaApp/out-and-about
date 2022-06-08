@@ -54,6 +54,7 @@
             :eventName="event.title"
             :location="event.location"
             :favorite="event.favorite"
+            :url="event.url"
             @click:toggle-favorite="onClickToggleFavorite(event)"
           />
         </transition-group>
@@ -155,7 +156,7 @@ export default {
       this.fuse = new Fuse(this.eventsList, {
         keys: ['title', 'location', 'dateFrame'],
         findAllMatches: true,
-        threshold: 0.3
+        threshold: 0.6
       });
     },
     getFavorites() {
