@@ -3,11 +3,11 @@
     <div class="out-and-about screen">
       <div class="jukebox-background">
         <div class="group-container">
-          <img class="mask-group" :src="maskGroup1" /><img class="mask-group-1" :src="maskGroup2" />
+          <img class="mask-group" :src="jukeboxTopLeft" /><img class="mask-group-1" :src="jukeboxTopRight" />
           <div class="overlap-group6">
             <div class="bg">
               <h1 class="title valign-text-middle">{{ title }}</h1>
-              <div class="proud-all-year-round valign-text-middle">{{ proudAllYearRound }}</div>
+              <div class="proud-all-year-round valign-text-middle">{{ subtitle }}</div>
             </div>
             <screws />
             <div class="overlap-group4">
@@ -23,7 +23,7 @@
               <div class="overlap-group5">
                 <img
                   class="ellipse-shape animate-enter"
-                  src="@/assets/ellipse-shape-1@2x.svg"
+                  src="@/assets/ellipse-shape@2x.svg"
                 />
                 <music-shape />
                 <img class="anima-logo" :src="animaLogo" />
@@ -105,18 +105,15 @@ export default {
     EventCard,
   },
   props: [
-    "maskGroup1",
-    "maskGroup2",
-    "proudAllYearRound",
+    "jukeboxTopLeft",
+    "jukeboxTopRight",
+    "subtitle",
     "title",
-    "madeWithByAnima",
     "flipper",
     "animaLogo",
     "rainbowShape",
-    "inputType",
     "inputPlaceholder",
-    "footer",
-    "eventsHeaderProps",
+    "footer"
   ],
   mounted() {
     this.fetchEvents().then(this.initFuzzySearch);

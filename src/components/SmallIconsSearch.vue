@@ -3,11 +3,11 @@
     <div class="overlap-group-4">
       <img
         class="shape"
-        src="@/assets/shape-1@2x.svg"
+        src="@/assets/shape@2x.svg"
       />
       <img
         class="path"
-        src="@/assets/path-1@2x.svg"
+        src="@/assets/path@2x.svg"
       />
     </div>
   </div>

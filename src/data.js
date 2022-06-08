@@ -1,13 +1,12 @@
 export const outAndAboutData = {
-    maskGroup1: require("@/assets/mask-group-4@2x.png"),
-    maskGroup2: require("@/assets/mask-group-9@2x.png"),
-    proudAllYearRound: "Proud all year 'round",
+    jukeboxTopLeft: require("@/assets/jukebox-top-left@2x.png"),
+    jukeboxTopRight: require("@/assets/jukebox-top-right@2x.png"),
+    subtitle: "Proud all year 'round",
     title: "Out & About",
-    madeWithByAnima: "Made with       by Anima",
-    flipper: require("@/assets/flipper-2@2x.png"),
-    animaLogo: require("@/assets/anima-logo-3@2x.png"),
-    rainbowShape: require("@/assets/rainbow-shape-1@2x.png"),
-    inputPlaceholder: "Search Berlin pride, June events..",
-    footer: require("@/assets/footer-5@2x.png")
+    flipper: require("@/assets/flipper@2x.png"),
+    animaLogo: require("@/assets/anima-logo@2x.png"),
+    rainbowShape: require("@/assets/rainbow-shape@2x.png"),
+    inputPlaceholder: "Search: Berlin, June events..",
+    footer: require("@/assets/footer@2x.png")
 };
 
