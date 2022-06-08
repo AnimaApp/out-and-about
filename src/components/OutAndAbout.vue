@@ -3,7 +3,8 @@
     <div class="out-and-about screen">
       <div class="jukebox-background">
         <div class="group-container">
-          <img class="mask-group" :src="jukeboxTopLeft" /><img class="mask-group-1" :src="jukeboxTopRight" />
+          <img class="mask-group" :src="jukeboxTopLeft" />
+          <img class="mask-group-1" :src="jukeboxTopRight" />
           <div class="overlap-group6">
             <div class="bg">
               <h1 class="title valign-text-middle">{{ title }}</h1>
@@ -12,19 +13,15 @@
             <screws />
             <div class="overlap-group4">
               <span class="made-with-by-anima">Made with</span>
-              <img
-                class="heart-rainbow"
-                src="@/assets/heart-rainbow-true@2x.svg"
-              />
+              <img class="heart-rainbow" src="@/assets/heart-rainbow-true@2x.svg" />
               <span class="made-with-by-anima">by Anima</span>
             </div>
             <img class="flipper" :src="flipper" />
             <div class="shapes-illustration">
               <div class="overlap-group5">
-                <img
-                  class="ellipse-shape animate-enter"
-                  src="@/assets/ellipse-shape@2x.svg"
-                />
+                <a :href="songUrl" target="_blank">
+                  <img class="ellipse-shape animate-enter" src="@/assets/ellipse-shape@2x.svg" />
+                </a>
                 <music-shape />
                 <img class="anima-logo" :src="animaLogo" />
               </div>
@@ -85,6 +82,18 @@ import EventCard from "./EventCard";
 import Fuse from 'fuse.js';
 
 const FAVORITE_IDS_KEY = "favoriteIds";
+const SONGS = [
+  'https://youtu.be/QB8NuvDML2I',
+  'https://youtu.be/wV1FrqwZyKw',
+  'https://youtu.be/0CGVgAYJyjk',
+  'https://youtu.be/LOZuxwVk7TU',
+  'https://youtu.be/6p-lDYPR2P8',
+  'https://youtu.be/eq_vflJkBzc',
+  'https://youtu.be/TQ04gPb4LlY',
+  'https://youtu.be/VBmMU_iwe6U',
+  'https://youtu.be/gJLIiF15wjQ',
+  'https://youtu.be/F-mjl63e0ms'
+];
 
 export default {
   name: "OutAndAbout",
@@ -94,7 +103,8 @@ export default {
       eventsList: [],
       favoriteIds: [],
       fuse: null,
-      query: ''
+      query: '',
+      songUrl: ''
     };
   },
   components: {
@@ -118,6 +128,7 @@ export default {
   mounted() {
     this.fetchEvents().then(this.initFuzzySearch);
     this.getFavorites();
+    this.setSongUrl();
   },
   computed: {
     events() {
@@ -164,6 +175,9 @@ export default {
       if (favoriteIdsString) {
         this.favoriteIds = JSON.parse(favoriteIdsString);
       }
+    },
+    setSongUrl() {
+      this.songUrl = SONGS[Math.floor(Math.random() * SONGS.length)];
     },
     onChangeFilter(type) {
       this.filter = type;
