@@ -36,7 +36,6 @@
           <small-icons-search />
           <input
             class="search-input"
-            name="searchberlinpridejuneevents"
             type="text"
             v-model="query"
             :placeholder="inputPlaceholder"
