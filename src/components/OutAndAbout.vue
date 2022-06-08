@@ -85,14 +85,16 @@ const FAVORITE_IDS_KEY = "favoriteIds";
 const SONGS = [
   'https://youtu.be/QB8NuvDML2I',
   'https://youtu.be/wV1FrqwZyKw',
-  'https://youtu.be/0CGVgAYJyjk',
+  'https://youtu.be/M4d20Tyzlv0',
   'https://youtu.be/LOZuxwVk7TU',
-  'https://youtu.be/6p-lDYPR2P8',
+  'https://youtu.be/GsVcUzP_O_8',
   'https://youtu.be/eq_vflJkBzc',
   'https://youtu.be/TQ04gPb4LlY',
   'https://youtu.be/VBmMU_iwe6U',
   'https://youtu.be/gJLIiF15wjQ',
-  'https://youtu.be/F-mjl63e0ms'
+  'https://youtu.be/qqXUpe3jlkA',
+  'https://youtu.be/0lPQZni7I18',
+  'https://youtu.be/tAp9BKosZXs'
 ];
 
 export default {
