@@ -130,7 +130,7 @@ export default {
   mounted() {
     this.fetchEvents().then(this.initFuzzySearch);
     this.getFavorites();
-    this.setSongUrl();
+    this.initSongUrl();
   },
   computed: {
     events() {
@@ -178,7 +178,7 @@ export default {
         this.favoriteIds = JSON.parse(favoriteIdsString);
       }
     },
-    setSongUrl() {
+    initSongUrl() {
       this.songUrl = SONGS[Math.floor(Math.random() * SONGS.length)];
     },
     onChangeFilter(type) {
