@@ -25,12 +25,12 @@ export default {
 .music-shape {
   align-items: flex-start;
   background-color: #ffdf90;
-  border-radius: 4.44px;
+  border-radius: 5px;
   display: flex;
   height: 56px;
   left: 0;
   min-width: 86px;
-  padding: 8.9px 11px;
+  padding: 10px;
   position: absolute;
   top: 16px;
 }
@@ -52,7 +52,7 @@ export default {
 
 .rectangle-1 {
   background-color: var(--sunset-orange);
-  border-radius: 2.22px;
+  border-radius: 2px;
   height: 3px;
   left: 0;
   position: absolute;
@@ -73,7 +73,7 @@ export default {
 
 .rectangle-2 {
   background-color: var(--sunset-orange);
-  border-radius: 2.22px;
+  border-radius: 2px;
   height: 3px;
   left: 0;
   position: absolute;
@@ -87,7 +87,7 @@ export default {
 
 .rectangle-3 {
   background-color: var(--sunset-orange);
-  border-radius: 2.22px;
+  border-radius: 2px;
   height: 3px;
   left: 0;
   position: absolute;

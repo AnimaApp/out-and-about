@@ -66,7 +66,7 @@ export default {
   overflow: hidden;
   padding: 10px;
   width: 320px;
-  border: 0.4px solid var(--white-2);
+  border: 1px solid var(--white-2);
 }
 
 .flex-col {

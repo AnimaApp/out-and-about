@@ -232,9 +232,9 @@ export default {
 
 .bg {
   background: linear-gradient(180deg, rgba(45, 45, 45, 0.7) 0%, rgba(45, 45, 45, 0) 100%);
-  border: 0.8px solid var(--bianca);
-  border-radius: 5.1px;
-  box-shadow: 0px 4.44px 3.33px 3.33px #f8d57e33;
+  border: 1px solid var(--bianca);
+  border-radius: 5px;
+  box-shadow: 0px 4px 3px 3px #f8d57e33;
   height: 82px;
   left: 0;
   position: absolute;
@@ -314,7 +314,6 @@ export default {
 
 .overlap-group5 {
   height: 106px;
-  margin-right: 0.13px;
   position: relative;
   width: 205px;
 }
@@ -342,7 +341,7 @@ export default {
 
 .rainbow-shape {
   height: 31px;
-  margin-right: 6.09px;
+  margin-right: 6px;
   margin-top: 4px;
   width: 34px;
 }
@@ -350,7 +349,7 @@ export default {
 .search-bar {
   align-items: center;
   background: linear-gradient(180deg, rgb(254, 124, 108) 0%, rgb(244.38, 166.51, 142.55) 100%);
-  border: 0.5px solid var(--white);
+  border: 1px solid var(--white);
   border-radius: 2px;
   display: flex;
   height: 30px;

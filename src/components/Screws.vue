@@ -61,7 +61,7 @@ export default {
 }
 
 .overlap-group {
-  border-radius: 4.5px;
+  border-radius: 5px;
   height: 9px;
   position: relative;
   width: 9px;
@@ -69,7 +69,7 @@ export default {
 
 .ellipse-37 {
   background-color: var(--nobel);
-  border-radius: 4.5px;
+  border-radius: 5px;
   height: 9px;
   left: 0;
   position: absolute;
@@ -86,7 +86,7 @@ export default {
 }
 
 .overlap-group-1 {
-  border-radius: 4.5px;
+  border-radius: 5px;
   height: 9px;
   margin-top: 56px;
   position: relative;
@@ -104,7 +104,7 @@ export default {
 
 .ellipse-37-1 {
   background-color: #b3b3b3;
-  border-radius: 4.5px;
+  border-radius: 5px;
   height: 9px;
   left: 0;
   position: absolute;
