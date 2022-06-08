@@ -47,7 +47,7 @@
           :filter="filter"
           @click:filter="onChangeFilter"
         />
-        <transition-group class="events-list" name="events-list">
+        <transition-group class="events-list" name="events-list" v-if="events.length">
           <event-card
             v-for="event in events"
             :key="event.id"
@@ -58,6 +58,18 @@
             @click:toggle-favorite="onClickToggleFavorite(event)"
           />
         </transition-group>
+        <div v-else class="empty-state">
+          <template v-if="query">
+            <span>No events found for your query 🥲</span>
+            <span>Here's a heart.</span>
+            <img class="heart-rainbow" src="@/assets/heart-rainbow-true@2x.svg" />
+          </template>
+          <template v-else-if="filter === 'Favorites'">
+            <span>You didn't set any favorite events yet!</span>
+            <span>Go back to <span class="clickable" @click="onChangeFilter('All')">All events</span> and add some!</span>
+            <span class="bigger">🫶</span>
+          </template>
+        </div>
         <img class="footer" :src="footer" />
       </div>
     </div>
@@ -166,6 +178,7 @@ export default {
       } else {
         newList.push(id);
       }
+
       localStorage.setItem(FAVORITE_IDS_KEY, JSON.stringify(newList));
       this.favoriteIds = newList;
     }
@@ -383,6 +396,33 @@ export default {
 
 .events-list > * {
   margin-bottom: 10px;
+}
+
+.empty-state {
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-xl);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  line-height: 20px;
+}
+.empty-state .heart-rainbow {
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  animation: beat 3s linear 0s infinite normal forwards;
+}
+.empty-state .bigger {
+  font-size: var(--font-size-xxxl);
+  margin-top: 10px;
+}
+.empty-state .clickable {
+  text-decoration: underline;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .footer {
