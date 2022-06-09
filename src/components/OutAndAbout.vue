@@ -340,6 +340,7 @@ export default {
   left: 67px;
   position: absolute;
   width: 106px;
+  border-radius: 100%;
 }
 
 .ellipse-shape.animate-enter {
