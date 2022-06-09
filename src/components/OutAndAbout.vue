@@ -19,7 +19,7 @@
             <img class="flipper" :src="flipper" />
             <div class="shapes-illustration">
               <div class="overlap-group5">
-                <a :href="songUrl" target="_blank">
+                <a :href="songUrl" target="_blank" @click="initSongUrl">
                   <img class="ellipse-shape animate-enter" src="@/assets/ellipse-shape@2x.svg" />
                 </a>
                 <music-shape />
